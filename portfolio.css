@@ -1,0 +1,177 @@
+/* General reset */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* Fonts */
+
+.t-heading{
+    font-family: "Inter", sans-serif;
+}
+
+.t-desc, .c-button{
+    font-family: "Poppins", sans-serif;
+}
+
+.c-heading, .c-data{
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+/* font end */
+
+/* title img */
+
+.rect {
+    position: relative;
+    /* height: 00%; */
+    text-align: left;
+}
+
+.rect img {
+    width: 100%;
+    /* height: 50%; */
+}
+
+.rect .less-than-symbol {
+    display: inline-block;
+    vertical-align: middle; /* Align the symbol with the text */
+    margin: 0 5px; /* Adjust spacing between Home and Blogs */
+    width: 16px; /* Adjust the width to make it smaller */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.rect h2 {
+    position: absolute; /* Keep h2 absolutely positioned */
+    top: 60%;
+    left: 100px;
+    transform: translateY(-50%);
+    margin: 0;
+    font-size: 2rem;
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.rect p {
+    margin-left: 100px; /* Align with h2 */
+    font-size: 1rem;
+    margin-top: 10px; /* Space between h2 and p */
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+    position: absolute; /* Keep p absolutely positioned */
+    top: calc(55% + 30px); /* Position below h2 (adjust +30px for desired spacing) */
+}
+
+.rect p span {
+    color: #008080; /* Teal color for the span */
+}
+
+@media (max-width: 768px) {
+    
+    
+    .rect h2 {
+        padding-top: 10px;
+        top: 60%;
+        font-size: 1.5rem;
+    }
+
+    .rect p {
+        top: calc(50% + 30px);
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    
+
+    .rect h2 {
+        padding-top: 10px;
+        top: 70%;
+        font-size: 1.2rem; /* Smaller font for mobile devices */
+    }
+
+    .rect p {
+        top: calc(50% + 30px);
+        font-size: 0.8rem; /* Smaller text for mobile */
+    }
+}
+
+/* title img end*/
+
+.main .content {
+    background-color: white;
+    justify-content: center;
+    width: auto;
+    height: auto;
+    border: 2px solid #EBECEF;
+    padding: 20px;
+    transition: all 0.3s ease; 
+}
+
+
+.t-heading{
+    font-weight: bold;
+}
+
+.main .image-wrapper {
+    overflow: hidden; 
+}
+
+.main .image img {
+    transition: transform 0.3s ease; 
+    width: 100%;
+}
+
+.main .content:hover .image img {
+    transform: scale(1.1); 
+}
+
+.main .c-desc .c-heading h3 {
+    font-size: 1.5rem;
+    width: auto;
+    height: 2.68rem;
+    transition: border-bottom 0.3s ease;
+}
+
+.main .content:hover .c-desc .c-heading h3 span{
+    border-bottom: 1px solid black; }
+
+.main .c-button button {
+    background-color: #008080;
+    width: 145px;
+    height: 44px;
+    font-size: 16px;
+    color: white;
+    border-color: #9CA3AF;
+    position: relative; 
+    transition: all 0.3s ease;
+}
+
+.main .c-button button::after {
+    content: '\2192'; 
+    position: absolute;
+    right: -20px;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.main .content:hover .c-button button::after {
+    opacity: 1;
+    right: 10px; 
+}
+
+.main .content:hover .c-button button {
+    background-color: #006666; 
+}
+
+
+.main .c-desc .c-data p{
+
+    max-width: 794px;
+    height: auto;
+    color: #424242;
+}

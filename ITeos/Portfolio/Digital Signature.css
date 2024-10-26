@@ -1,0 +1,122 @@
+.rect {
+    position: relative;
+    /* height: 00%; */
+    text-align: left;
+}
+
+.rect img {
+    width: 100%;
+    /* height: 50%; */
+}
+
+.rect .less-than-symbol {
+    display: inline-block;
+    vertical-align: middle; /* Align the symbol with the text */
+    margin: 0 5px; /* Adjust spacing between Home and Blogs */
+    width: 16px; /* Adjust the width to make it smaller */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.rect h2 {
+    position: absolute; /* Keep h2 absolutely positioned */
+    top: 60%;
+    left: 100px;
+    transform: translateY(-50%);
+    margin: 0;
+    font-size: 2rem;
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.rect p {
+    margin-left: 100px; /* Align with h2 */
+    font-size: 1rem;
+    margin-top: 10px; /* Space between h2 and p */
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+    position: absolute; /* Keep p absolutely positioned */
+    top: calc(55% + 30px); /* Position below h2 (adjust +30px for desired spacing) */
+}
+
+.rect p span {
+    color: #003566; /* Teal color for the span */
+}
+.left .row{
+   padding-top: 10px;
+   border-top: 1px solid #E7E8EB;
+   border-bottom: 1px solid #E7E8EB;
+   font-family: "Poppins", sans-serif;
+  
+}
+.left .row h3{
+    
+    font-size: 16px;
+    color: #828282;
+    font-weight: 400;
+}
+.left .row p{
+    font-size: 16px;
+}
+.p-content{
+    color: #828282;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+.m-heading{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #37393f;
+}
+
+.m-content p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #828282;
+    font-family: "Poppins", sans-serif;
+}
+
+.m-content h2{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    color: #282C4B;
+}
+
+
+.right .ContactUsBox{
+    display: flex; 
+    flex-direction: column;
+    background-color: #1769AA;
+    height: 431px;
+    width: 373px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.right .ContactUsBox h4{
+
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+.right .ContactUsBox p{
+
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.right .ContactUsBox button{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    color: white;
+    width: 181px;
+    height: 56px;
+    background-color: #20cfc5;
+    border: 1px solid #20cfc5;
+    border-radius: 10px;
+}

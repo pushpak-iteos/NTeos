@@ -1,0 +1,53 @@
+    /* General styles for the navbar */
+    .navbar {
+        padding: 1rem 0;
+    }
+    
+    .navbar-logo {
+        width: 120px; /* Adjust logo width */
+        height: auto;
+    }
+    
+    /* Style for the nav links */
+    .nav-link {
+        padding-right:20px;
+        color: #111827 !important;
+        font-size: 16px !important;
+        font-style: bold;
+        margin-right: 10px;
+        transition: color 0.3s ease;
+        font-family: "Ubuntu", serif;
+    }
+    
+    .nav-link:hover {
+        color: #008080 !important; /* Hover color for links */
+    }
+    
+    .nav-link.active {
+        color: #111827 !important;/* Active link color */
+    }
+    /* Style for the button */
+    .btn-outline-primary {
+        color: #003566 !important;
+        border-color: #003566 !important;
+        padding: 10px 30px;
+        border-radius: 7px;
+        font-family: "Ubuntu", serif !important;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+    .btn-outline-primary:hover {
+        background-color: #003566 !important;
+        color: white !important;
+        font-family: "Ubuntu", serif;
+        
+    }
+    
+    /* For mobile view */
+    @media (max-width: 992px) {
+        .navbar-nav {
+            text-align: center;
+        }
+    
+    
+    }

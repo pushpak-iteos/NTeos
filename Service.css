@@ -1,0 +1,287 @@
+.rect {
+    position: relative;
+    /* height: 00%; */
+    text-align: left;
+}
+
+.rect img {
+    width: 100%;
+    /* height: 50%; */
+}
+
+.rect .less-than-symbol {
+    display: inline-block;
+    vertical-align: middle; /* Align the symbol with the text */
+    margin: 0 5px; /* Adjust spacing between Home and Blogs */
+    width: 16px; /* Adjust the width to make it smaller */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.rect h2 {
+    position: absolute; /* Keep h2 absolutely positioned */
+    top: 60%;
+    left: 100px;
+    transform: translateY(-50%);
+    margin: 0;
+    font-size: 2rem;
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.rect p {
+    margin-left: 100px; /* Align with h2 */
+    font-size: 1rem;
+    margin-top: 10px; /* Space between h2 and p */
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+    position: absolute; /* Keep p absolutely positioned */
+    top: calc(55% + 30px); /* Position below h2 (adjust +30px for desired spacing) */
+}
+
+.rect p span {
+    color: #008080; /* Teal color for the span */
+}
+
+@media (max-width: 768px) {
+    
+    
+    .rect h2 {
+        padding-top: 10px;
+        top: 60%;
+        font-size: 1.5rem;
+    }
+
+    .rect p {
+        top: calc(50% + 30px);
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    
+
+    .rect h2 {
+        padding-top: 10px;
+        top: 70%;
+        font-size: 1.2rem; /* Smaller font for mobile devices */
+    }
+
+    .rect p {
+        top: calc(50% + 30px);
+        font-size: 0.8rem; /* Smaller text for mobile */
+    }
+}
+
+.part1 .Sheading{
+    /* width: 500px; */
+    font-size: 56px;
+    font-weight: 500;
+    font-family: "Ubuntu", serif;
+    
+}
+
+
+
+.container .row .card-wrapper .card{
+    padding-bottom: 0px !important;
+    height: 302px;
+    width: 290px;
+}
+.container .row .card-wrapper .card .services-images{
+    height: 52;
+    width: 52.58px;
+}
+.container .row .card-wrapper{
+    padding-bottom: 50px;
+}
+.container .row .card-wrapper .card a{
+    padding-bottom: 50px !important;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    color: #008080;
+
+}
+.container .row .card-wrapper .card h5{
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+}
+.container .row .card-wrapper .card p{
+    font-size: 14px;
+    width: 230px;
+    height: 88px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+.container .row .card-wrapper .card {
+    position: relative;
+    transition: transform 0.4s ease-in-out;
+  }
+ 
+  /* Flip animation for the image */
+  .container .row .card-wrapper .card .service_images {
+    transition: transform 0.4s ease-in-out;
+    transform-origin: center;
+  }
+ 
+  /* Hover state for the card */
+  .container .row .card-wrapper .card:hover {
+    transform: translateY(-10px); /* Moves the card up smoothly */
+  }
+ 
+  /* Image flip effect on hover */
+  .container .row .card-wrapper .card:hover .service_images {
+    transform: rotateY(180deg); /* Flips the image */
+  }
+  .container .row .card-wrapper .card  .empty{
+    margin-left: 80px;
+    width: 100px;
+    height: 7px;
+    background-color: #E5E7EB;
+}
+ 
+.info-card{
+    padding-bottom: 40px !important;
+}
+.container .row .card-wrapper .card:hover  .empty{
+   
+    background-color: #008080;
+}
+ 
+/*  PART2 CSS */
+.part2 .logo-1{
+    text-decoration: none;
+    background-color: #DDE8F0;
+    color: #176AAA;
+    padding: 3px;
+    font-weight: 500;
+    border-radius: 50px;
+    width: 155px;
+    height: 32px;
+    font-size: 14px;
+}
+
+.part2 .left .title .s-mark img{
+    height: 54px;
+    width: 54px;
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: #D2D2D2;
+}
+.part2 .left .title .s-heading{
+    padding-left: 50px;
+}
+.part2 .left .title .s-heading h2 {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    color: #282C4B; 
+}
+.part2 .left .title .s-heading p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Ubuntu", sans-serif;
+    color: darkgray;
+}
+/* Basic styling for the container */
+.hover-effect-container {
+    /* width: 600px; */
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+.hover-effect-container::before {
+    content: "";
+    position: absolute;
+    bottom: -10%; /* Start off-screen (bottom) */
+    right: -100%; /* Start off-screen (right) */
+    width: 400px; /* Size of the square */
+    height: 200px; /* Size of the square */
+    background-color: rgba(0, 128, 128, 0.5); /* Semi-transparent square */
+    transition: all 2.0s ease; /* Control the transition speed and type */
+}
+/* Image style before hover */
+.hover-effect-image {
+    
+    width: 200px; /* Initially smaller than the container */
+    height: 200px;
+    transition: all 2.0s ease; /* Faster transition speed */
+    position: absolute;
+    bottom: 150; /* Start from the bottom */
+    left: 130; /* Start from the left */
+}
+
+/* On hover, the image moves to the center and becomes larger */
+.hover-effect-container:hover .hover-effect-image {
+    width: 500px; /* Expand to full container width */
+    height: 350px; /* Expand to full container height */
+    left: 22%; /* Move to the center horizontally */
+    top: 40%; /* Move to the center vertically */
+    transform: translate(0%, -50%); 
+}
+.hover-effect-container:hover::before {
+    bottom: 100; /* Move the square from bottom to top */
+    right: 0; /* Move the square from right to left */
+}
+
+@media (max-width: 750px){
+    .hover-effect-container{
+        width: 300px;
+    }
+}
+
+@media (max-width: 380px){
+    .hover-effect-image{
+        left: 0;
+    }
+    .hover-effect-container:hover .hover-effect-image{
+        width: 300px;
+        left: -2%;
+    }
+    .container .part2 .left{
+        width: 300px;
+    }
+    .container .part1 h1{
+        width: 300px;
+    }
+}
+
+
+.last .container .back_img{
+    background-image: url("./assets/images/NavBar-ContactUs-Services-AboutUs/BG.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 22.5em;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+ 
+.last .container .back_img h2{
+    font-size: 40px;
+    color: #EDF2F4;
+    font-weight: 600;
+}
+.last .container .back_img p{
+    font-size: 18px;
+    color: #EDF2F4;
+    font-weight: 400;
+    /* justify-content: center; */
+    max-width: 837px;
+}
+ 
+.last .container .back_img button{
+    font-size: 20px;
+    color: white;
+    max-width: 181px;
+    max-height: 56px;
+    background-color: #20CFC5 ;
+   
+}

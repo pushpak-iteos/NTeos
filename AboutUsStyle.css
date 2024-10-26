@@ -1,0 +1,756 @@
+*{
+    max-width: 100%;
+}
+.rect {
+    position: relative;
+    /* height: 00%; */
+    text-align: left;
+}
+
+.rect img {
+    width: 100%;
+    /* height: 50%; */
+}
+
+.rect .less-than-symbol {
+    display: inline-block;
+    vertical-align: middle; /* Align the symbol with the text */
+    margin: 0 5px; /* Adjust spacing between Home and Blogs */
+    width: 16px; /* Adjust the width to make it smaller */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.rect h2 {
+    position: absolute; /* Keep h2 absolutely positioned */
+    top: 60%;
+    left: 100px;
+    transform: translateY(-50%);
+    margin: 0;
+    font-size: 2rem;
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.rect p {
+    margin-left: 100px; /* Align with h2 */
+    font-size: 1rem;
+    margin-top: 10px; /* Space between h2 and p */
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+    position: absolute; /* Keep p absolutely positioned */
+    top: calc(55% + 30px); /* Position below h2 (adjust +30px for desired spacing) */
+}
+
+.rect p span {
+    color: #008080; /* Teal color for the span */
+}
+
+@media (max-width: 768px) {
+    
+    
+    .rect h2 {
+        padding-top: 10px;
+        top: 60%;
+        font-size: 1.5rem;
+    }
+
+    .rect p {
+        top: calc(50% + 30px);
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    
+
+    .rect h2 {
+        padding-top: 10px;
+        top: 70%;
+        font-size: 1.2rem; /* Smaller font for mobile devices */
+    }
+
+    .rect p {
+        top: calc(50% + 30px);
+        font-size: 0.8rem; /* Smaller text for mobile */
+    }
+}
+
+.part1 .left .logo-2{
+    text-decoration: none;
+    background-color: #DDE8F0;
+    color: #176AAA;
+    padding: 3px;
+    font-weight: 500;
+    border-radius: 50px;
+    width: 155px;
+    height: 32px;
+    font-size: 14px;
+}
+.part1 .left{
+    /* margin-left: 50px; */
+    padding-left: 70px;
+}
+.part1 .left .content .heading{
+    font-size: 56px;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    color: #282C4B;
+    
+}
+.part1 .left .content .paragraph{
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Ubuntu", sans-serif; 
+    color: #747582;
+}
+
+.features-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+    row-gap: 15px; /* Spacing between grid items */
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.feature-item {
+    display: grid;
+    grid-template-columns: auto 7fr; /* Icon takes auto width, text takes remaining space */
+    align-items: center; /* Vertically align items */
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    color: #2a2b3b;
+}
+
+.part1 .left .features-container .feature-item .img{
+    width: 24px;
+    height: 24px;
+
+}
+
+.right .image{
+    height: auto;
+    width: auto;
+}
+.part1 .left .features-container .feature-item span{
+    padding-left: 10px;
+}
+/* stats counter */
+.part2 {
+    font-family: Arial, sans-serif;
+    background-color: #e6f7f7;
+    margin: 0 !important;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.part2 .container {
+    max-width: 1300px;
+    /* margin: 0 ; */
+}
+.part2 h3 {
+    justify-content: left;
+    color: #333;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    
+}
+.part2 .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding-left: 100px;
+}
+.part2 .stat-item {
+    text-align: center;
+}
+.part2 .stat-number {
+    font-size: 56px;
+    font-weight: 600;
+    color: #008080;
+    
+}
+.part2 .stat-label {
+    font-size: 16px;
+    font-weight: 400;
+    color: #282C4B; 
+}
+
+
+/* PART 3 CSS  */
+.part3{
+    padding-top: 50px;
+}
+
+.part3 .left{
+    position: relative;
+}
+.background-image {
+    top: 80px;
+    left: 0;
+    position: relative; /* This sets a positioning context for the .images2 element */
+    width: 100%; /* Adjust based on the size of the background image */
+    height: auto;
+    overflow:hidden; /* Adjust height to match your background image */
+}
+
+.background-image img {
+    width: 110%; /* Make the background image responsive */
+    height: auto;
+    transition: transform 2.0s ease;
+}
+
+.part3:hover .background-image {
+    transform: scale(1.3);
+}
+
+.part3 .left .images2 {
+    width: 100%;
+    position: absolute; /* This makes the .images2 element positioned relative to .background-image */
+    top: 0; /* Adjust the position as needed */
+    left: 10px; /* Adjust the position as needed */
+    z-index: 1; /* Ensures .images2 appears above the .background-image */
+}
+
+.static-image {
+    width: 100%; /* Adjust based on your requirement */
+    height: auto; /* Maintain aspect ratio */
+    height: 400px;
+}
+
+.part3 .right{
+    /* padding-left: 200px; */
+    padding-bottom: 50px;
+    padding-right: 0px;
+    border-right: 10px;
+    
+} 
+
+
+
+
+
+
+
+.part3 .right .logo-3{
+    text-decoration: none;
+    background-color: #DDE8F0;
+    color: #176AAA;
+    padding: 3px;
+    font-weight: 500;
+    border-radius: 50px;
+    width: 155px;
+    height: 32px;
+    font-size: 14px;
+}
+.part3 .content .heading{
+    width: auto;
+    font-size: 56px;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    color: #282C4B;
+}
+.part3 .content .paragraph{
+    width: auto;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Ubuntu", sans-serif; 
+    color: #747582;
+}
+
+
+
+
+.progress-container {
+    width: 600px; /* Set the desired width for the entire progress bar */
+    margin: 0 0 ; /* Center it on the page */
+}
+
+.progress {
+    height: 24px; /* Adjust the height to make it more rectangular */
+    border-radius: 0; /* Remove border-radius for rectangular shape */
+    background-color: #e9ecef; /* Optional: Change background to make the bar stand out */
+}
+
+.progress-bar {
+    background-color: red; /* Set the progress bar color to red */
+    height: 100%; /* Ensure it takes up full height */
+    border-radius: 0; /* Ensure the bar itself is also rectangular */
+    line-height: 20px; /* Vertically center the text inside */
+    font-weight: bold;
+    font-size: 14px; /* Adjust font size for better readability */
+    text-align: center;
+}
+
+.progress-container h2{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif; 
+}
+
+/* PART4 CSS */
+.part4{
+    background-color: #008080;
+    color: #F1F1F1;
+    padding: 60px;
+}
+.part4 .container{
+    max-width: 100%;
+}
+.part4 .heading1 {
+    font-size: 56px;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+}
+.part4 .left img{
+    height: 80px;
+    width: 81px;
+}
+.part4 .left h3{
+    font-size: 48px;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+
+}
+.part4 .left .left_para{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+.part4 .left p{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+.part4 .left .num-data{
+    align-items: center;
+
+}
+.part4 .middle .p-heading{
+    padding-left: 0px !important;
+}
+.part4 .middle img{
+    padding-bottom: 15px;
+    width: 30px;
+    height: 30px;
+}
+.part4 .middle h2{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+}
+.part4 .middle p{
+    font-size: 18px;
+    font-weight: 400px;
+    font-family: "Ubuntu", sans-serif;
+}
+.part4 .middle .p-heading{
+    border-bottom: 1px solid #F1F1F1;
+    /* background-color: black; */
+}
+.part4 .middle .p-mark{
+    /* padding-left: 0px !important; */
+    /* padding-bottom: 10px; */
+    padding-right: 0px !important;
+    
+    width: 60px;
+    height: 40px;
+}
+.part4 .middle .p-mark img{
+    height: 50px;
+    width: 30px;
+}
+.part4 .right h2{
+    /* width: 263px; */
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+
+}
+.part4 .right p{
+    font-size: 18px;
+    font-weight: 400px;
+    font-family: "Ubuntu", sans-serif;
+}
+.part4 .right .p-heading{
+    padding-left: 0 !important;
+    border-bottom: 1px solid #F1F1F1;
+    /* background-color: black; */
+}
+.part4 .right img{
+    width: 30px;
+    height: 30px;
+}
+.part4 .right .p-mark{
+    padding-right: 0px !important;
+    width: 60px;
+    height: 40px;
+}
+/* PART5 CSS */
+.part5{
+    background-color: #EDFFFB;
+}
+.part5 .left .logo-3{
+    text-decoration: none;
+    background-color: #DDE8F0;
+    color: #176AAA;
+    padding: 3px;
+    font-weight: 500;
+    border-radius: 50px;
+    width: 155px;
+    height: 32px;
+    font-size: 14px;
+}
+.part5 .btn{
+    padding: 10px 20px; /* Decreased padding for the button */
+    background-color: white;
+    color: #008080;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 15px;
+    border: 2px solid #008080;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 210px;
+    height: 58px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.part5 .btn:hover {
+    background-color: #008080;
+    color: white;
+}
+.part5 .left{
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.part5 .left .p5-heading{
+    width: auto;
+    font-weight: 500;
+    font-size: 56px;
+    font-family: "Ubuntu", sans-serif;
+}
+.part5 .left .p5-paragraph{
+    font-size: 20px;
+    font-weight: 400px;
+    font-family: "Ubuntu", sans-serif;
+    padding-bottom: 50px;
+}
+.part5 .right {
+    padding-top: 70px;
+    padding-right: 50px;
+}
+.part5 .right span{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    color: #747582;
+}
+.part5 .right .p5r-paragragh p{
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Ubuntu", sans-serif;
+    color: #747582;
+    width: auto;
+    
+}
+
+/* PART6 CSS */
+
+.part6 .portion .p6-heading{
+    font-size: 66px;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+}
+.part6 .logo-5{
+    text-decoration: none;
+    background-color: #DDE8F0;
+    color: #176AAA;
+    padding: 3px;
+    font-weight: 500;
+    border-radius: 50px;
+    width: 155px;
+    height: 32px;
+    font-size: 14px;
+}
+.wrapper {
+    display: flex;
+    width: 100%;
+    height: 404px;
+    justify-content: space-around;
+}
+
+.part6 .card {
+    margin: 75px;
+    max-width: 280px;
+    height: 360px;
+    border-radius: 15px;
+    padding: 1.5rem;
+    background: white;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    transition: 0.4s ease-out;
+    overflow: hidden; /* Make sure content doesn't overflow */
+}
+.card:hover:before {
+    opacity: 1;
+}
+
+.card:hover .info {
+    position:absolute;
+    top: 75%;
+    left: 15%;
+    opacity: 1;
+    transform: translateY(0); /* Bring it back to the original position */
+}
+
+.card:before {
+    content: "";
+    position: absolute;
+    bottom: -100%;
+    top: 70%;
+    left: 5%;
+    display: block;
+    width: 90%;
+    height: 25%;
+    border-radius: 25px;
+    background:rgba(255, 255, 255, 0.5);
+    z-index: 2;
+    transition: 0.5s;
+    opacity: 0;
+   
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 15px;
+    z-index: 1; /* Image should be below everything */
+}
+
+.info {
+    /* padding-top: 95%; */
+    position: absolute;
+    bottom: -100%;
+    z-index: 3;
+    color: rgb(0, 0, 0);
+    opacity: 0; /* Initially hidden */
+    transform: translateY(30px); /* Move it down initially */
+    transition: opacity 0.5s ease, transform 0.5s ease; /* Smooth transition */
+}
+
+.info h1 {
+    margin: 0px;
+    font-size: 25px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.info p {
+    letter-spacing: 1px;
+    font-size: 10px;
+    margin-top: 8px;
+    font-family: "Ubuntu", sans-serif;
+}
+/* Social Icons Styling */
+.social-icons {
+    display: grid;               /* Use grid for layout */
+    grid-template-columns: repeat(4, 1fr); /* Four columns */
+    gap: 5px;                   /* Set gap between the icons */
+    justify-items: center; 
+    
+}
+.social-icons a img {
+    width: 25px;
+    height: 25px;
+    transition: transform 0.3s ease;
+    filter: grayscale(100%); /* Add transition for a smooth hover effect */
+    
+}
+.social-icons a{
+    color: #008080;
+}
+
+/* Hover Effect for Social Icons */
+.social-icons a img:hover {
+    width: 25px;
+    filter:none;
+    transform: scale(1.2); /* Enlarge icon slightly on hover */
+}
+.social-icons{
+    width: 80px;
+}
+/* When hovering over the card, the info including the social icons will slide up */
+.card:hover .info .social-icons{
+    position: absolute;
+    right: -40%;
+    top: 40px;
+    opacity: 1;
+    transform: translateY(0);
+}
+.social-icons a:hover{
+    color: #176AAA;
+}
+
+/* PART7 CSS  */
+.part7 .logo-6 {
+    text-decoration: none;
+    background-color: #DDE8F0;
+    color: #176AAA;
+    padding: 3px;
+    font-weight: 500;
+    border-radius: 50px;
+    width: 155px;
+    height: 32px;
+    font-size: 14px;
+}
+
+.profile-grid, .profile-grid-second {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Auto adjust columns */
+    gap: 30px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    min-height: 12vh;
+}
+
+.profile {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #30cfd0;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.empty {
+    border: none;
+}
+
+/* Media queries for responsive design */
+@media (max-width: 380px){
+    .part1 .left {
+        padding-left: 30px;
+    }
+    .part1 .left .features-container .feature-item img{
+        height: auto;
+        width: 24px;
+    }
+    .part2 .stats-grid{
+        padding-left: 0px;
+    }
+    .part5 .left{
+        padding-left: 20px;
+    }
+    .part5 .right span{
+        padding-left: 0px;
+    }
+    .profile-grid {
+        justify-items: center;
+        margin-left: 10px;
+    }
+
+
+
+}
+
+
+@media (max-width: 1400px){
+    .profile-grid, .profile-grid-second{
+        margin: 10px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .profile-grid, .profile-grid-second {
+        gap: 15px;
+    }
+    .profile {
+        width: 90px;
+        height: 90px;
+    }
+    .progress .progress-bar{
+        width: auto;
+
+    }
+}
+
+@media (max-width: 992px) {
+    .profile-grid, .profile-grid-second {
+        grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+        gap: 10px;
+    }
+    .profile {
+        width: 80px;
+        height: 80px;
+    }
+    .progress .progress-bar{
+        width: auto;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .profile-grid, .profile-grid-second {
+        grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+    }
+    .profile {
+        width: 70px;
+        height: 70px;
+    }
+    .progress-container {
+        max-width: 100%; /* Full width for smaller devices */
+    }
+    .progress {
+        height: 20px; /* Reduce height for smaller screens */
+    }
+    .progress-bar {
+        font-size: 12px; /* Adjust font size for smaller screens */
+        line-height: 20px;
+    }
+    .progress-container h2 {
+        font-size: 14px; /* Smaller heading text for mobile */
+    }
+}
+
+@media (max-width: 576px) {
+    .profile-grid, .profile-grid-second {
+        grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+        gap: 5px;
+    }
+    .profile {
+        width: 60px;
+        height: 60px;
+    }
+    .progress-container {
+        padding: 0 10px; /* Reduce padding on very small devices */
+    }
+    .progress {
+        height: 18px; /* Further reduce height for small screens */
+    }
+    .progress-bar {
+        font-size: 11px; /* Smaller font size for mobile */
+        line-height: 18px;
+    }
+    .progress-container h2 {
+        font-size: 13px; /* Further reduce heading size */
+    }
+}

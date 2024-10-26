@@ -1,0 +1,417 @@
+
+.rect {
+    position: relative;
+    /* height: 00%; */
+    text-align: left;
+}
+
+.rect img {
+    width: 100%;
+    /* height: 50%; */
+}
+
+.rect .less-than-symbol {
+    display: inline-block;
+    vertical-align: middle; /* Align the symbol with the text */
+    margin: 0 5px; /* Adjust spacing between Home and Blogs */
+    width: 16px; /* Adjust the width to make it smaller */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.rect h2 {
+    position: absolute; /* Keep h2 absolutely positioned */
+    top: 60%;
+    left: 100px;
+    transform: translateY(-50%);
+    margin: 0;
+    font-size: 2rem;
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.rect p {
+    margin-left: 100px; /* Align with h2 */
+    font-size: 1rem;
+    margin-top: 10px; /* Space between h2 and p */
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+    position: absolute; /* Keep p absolutely positioned */
+    top: calc(55% + 30px); /* Position below h2 (adjust +30px for desired spacing) */
+}
+
+.rect p span {
+    color: #003566; /* Teal color for the span */
+}
+
+@media (max-width: 768px) {
+    
+    
+    .rect h2 {
+        padding-top: 10px;
+        top: 60%;
+        font-size: 1.5rem;
+    }
+
+    .rect p {
+        top: calc(50% + 30px);
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    
+
+    .rect h2 {
+        padding-top: 10px;
+        top: 70%;
+        font-size: 1.2rem; /* Smaller font for mobile devices */
+    }
+
+    .rect p {
+        top: calc(50% + 30px);
+        font-size: 0.8rem; /* Smaller text for mobile */
+    }
+}
+
+.m-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #828282;
+    font-family: "Poppins", sans-serif;
+}
+
+.m-content h2{
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Ubuntu", sans-serif;
+    color: #282C4B;
+}
+
+.m-content .m-heading{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    color: #333333;
+}
+.m-content .s-heading{
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Ubuntu", sans-serif;
+    color: #828282;
+}
+
+.input-box{
+    position: relative;
+  }
+  
+.right .search_box .form-control{
+    height: 50px;
+    width: 100%;
+}
+
+.right .search_box .input-box .fa{
+    color: #003566;
+    
+}
+  .input-box i {
+    position: absolute;
+    right: 13px;
+    top:15px;
+    color:white !important;
+  
+}
+.input-box {
+    border: 1px solid #ccc; /* Optional: Add border to the container */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    overflow: hidden;
+}
+
+.input-box i {
+    top: 0;
+    right: 0;
+    background-color: #003566 !important; /* Bootstrap primary blue color */
+    color: #fff;
+    padding: 20px; /* Add padding for better spacing */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the right */
+}
+
+/* profile card */
+.profile-card {
+    width: auto;
+    height: auto;
+    background-color: #1769aa;
+    color: white;
+    min-height: 430px; /* Setting a minimum height to maintain the overall structure */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures content is spaced, with icons at the bottom */
+}
+ 
+.profile-card .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+ 
+.start .p-border {
+    border-bottom: 1px solid #3e82b8;
+    font-size: 16px;
+    color: #dcdcdc;
+    margin-bottom: 10px;
+}
+ 
+.start .social-icons {
+    display: flex;
+    justify-content: center; /* Centers the icons horizontally */
+    margin-top: 15px;
+}
+ 
+.start .social-icons a {
+    margin-right: 15px; /* Adds spacing between the icons */
+   
+}
+ 
+.start .social-icons img {
+    width: 30px; /* Size of the social icons */
+    height: 30px;
+}
+ 
+
+.card {
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: 600;
+    size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #333333;
+}
+
+.article-menu {
+    margin-top: 20px;
+}
+
+.article-menu li {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-weight: 400;
+    size: 16px;
+    font-family: "Raleway", sans-serif;
+    color: #1b1b1f
+}
+
+.article-menu li.active a {
+    color: #0a4b93;
+    position: relative;
+    font-weight: 600;
+    size: 16px;
+    font-family: "Raleway", sans-serif;
+    color: #003566;
+}
+
+.article-menu li.active a::before {
+    content: '';
+    position: absolute;
+    left: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 100%;
+    background-color: #0a4b93;
+}
+
+.article-menu a {
+    color: #333;
+    text-decoration: none;
+}
+
+.article-menu a:hover {
+    color: #0a4b93;
+}
+
+.tags{
+    border: 1px solid #e0e0e0;
+    padding-right: 10px;
+    /* font-size: 13.75px;
+    color: #4f4f4f;
+    font-weight: 400; */
+}
+
+.card .row p{
+    
+    font-size: 13.75px;
+    color: #4f4f4f;
+    font-weight: 400;
+    max-width: 112px;
+    height: 37.31px;
+}
+
+.last .icons{
+    position: relative;
+    height: 45.66px;
+    width: 51.05px;
+    margin: 10px;
+}
+
+
+.last .icons .logo{
+    position: absolute;
+    left: 55%;
+    top: -7%;
+}
+
+
+.part2 .content , .part3 .content{
+    max-width: 846px;
+}
+.p2-heading, .p3-heading{
+    
+    font-size: 37px;
+    color: #2b2d42;
+    font-weight: 500;
+    border-bottom: 2px solid #c4c4c4;
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+
+.part2 .profiles .p-info h2{
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #2b2d42;
+}
+
+.part2 .profiles .p-info p{
+    font-weight: 400;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #6c6c6c;
+}
+
+.comment-input {
+    height: 200px; /* Set your desired height */
+    resize: none; /* Prevents resizing if you want a fixed height */
+}
+
+
+.custom-button {
+    background-color: #003566; /* Change to your desired color */
+    width: 197px; /* Set your desired width */
+    height: 55.45px;
+    border-color: #003566; /* Ensure border color matches the background */
+    color: white;
+    border-radius: 0px;
+}
+
+/* Optional: Change hover color for better UX */
+.custom-button:hover {
+    background-color: #003566; /* Darker shade for hover */
+    border-color: #003566;/* Darker border for hover */
+}
+
+.part3 .content{
+    border-bottom: 1px solid #6c6c6c;
+}
+
+
+/* part4 */
+
+
+.part4 .p3-heading{
+    border: none;
+}
+.part4 .card {
+    margin-bottom: 50px;
+    max-width: 390px;
+    height: 380px;
+    padding: 0;
+    position: relative;
+    overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+.part4 .c-link {
+    color: #404040;
+    font-size: 14px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+}
+
+.part4 .c-link span {
+    border-bottom: 1px solid #404040;
+}
+
+.part4 .card-body{
+    padding-bottom: 55px;
+}
+
+.part4 .card-body .card-heading{
+    margin: 0;
+    padding: 0;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+.part4 .card-body .card-text{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6c6c6c;
+}
+
+/* Move the m-content slightly upwards */
+.part4 .m-content {
+    position: relative;
+    top: -1px; /* Move it up by 15px */
+    padding-bottom: 10px; /* Adjust padding so content doesn't overflow */
+    transition: top 0.7s ease; /* Smooth transition when moving */
+}
+
+/* Optional: add hover effect to move it more */
+.part4 .card:hover .m-content {
+    top: -25px; /* Moves more on hover if desired */
+}
+
+.part4 .dash {
+    margin-left: 120px;
+    height: 4px;
+    width: 110px;
+    background-color: #008080;
+    opacity: 0;
+    transition: margin-left 1s ease, opacity 1s ease;
+}
+
+/* On hover, update margin and make it visible */
+.part4 .card:hover .dash {
+    margin-left: 110px;
+    opacity: 1;
+}
+
+/* Wrapper to contain the images and position them */
+.part4 .card-img-wrapper {
+    position: relative;
+    width: 100%; /* Adjust based on the image size */
+    height: auto;
+}
+
+.part4 .card-img-top {
+    display: block;
+    width: 100%; /* Full width of the container */
+    height: auto;
+}
+
+.part4 .overlay-img {
+    position: absolute;
+    top: 20px; /* Adjust based on how much space you want from the top */
+    left: 20px; /* Adjust based on how much space you want from the left */
+    width: 50px; /* Set desired size for the overlay image */
+    height: auto; /* Maintain aspect ratio */
+}

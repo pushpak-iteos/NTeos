@@ -1,0 +1,302 @@
+/* Global styles */
+body {
+    font-family:"Ubuntu", sans-serif;; /* Global font family */
+}
+.rect {
+    position: relative;
+    /* height: 00%; */
+    text-align: left;
+}
+ 
+.rect img {
+    width: 100%;
+    /* height: 50%; */
+}
+ 
+.rect .less-than-symbol {
+    display: inline-block;
+    vertical-align: middle; /* Align the symbol with the text */
+    margin: 0 5px; /* Adjust spacing between Home and Blogs */
+    width: 16px; /* Adjust the width to make it smaller */
+    height: auto; /* Maintain aspect ratio */
+}
+ 
+.rect h2 {
+    position: absolute; /* Keep h2 absolutely positioned */
+    top: 60%;
+    left: 100px;
+    transform: translateY(-50%);
+    margin: 0;
+    font-size: 2rem;
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+}
+ 
+.rect p {
+    margin-left: 100px; /* Align with h2 */
+    font-size: 1rem;
+    margin-top: 10px; /* Space between h2 and p */
+    color: black;
+    font-family: "Ubuntu", sans-serif;
+    position: absolute; /* Keep p absolutely positioned */
+    top: calc(55% + 30px); /* Position below h2 (adjust +30px for desired spacing) */
+}
+ 
+.rect p span {
+    color: #008080; /* Teal color for the span */
+}
+.part1 .left{
+    z-index: 1;
+
+}
+.part1 .row .left-bottom{
+    position: absolute;
+    top: 35%; 
+    bottom: 0; 
+    left: 6.5%; 
+    height: 500px;
+    width: 500px;
+
+}
+.part1 .left{
+    position: relative;
+}
+/* PART1 CSS */
+.part1 .left h1 {
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 20px; /* Add spacing below the heading */
+}
+
+.fixed-textarea {
+    width: 100%; /* Make width responsive */
+    height: 121px; /* Fixed height */
+    resize: none; /* Disable resizing */
+    padding: 10px; /* Add some padding inside the textarea */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 4px; /* Round corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    font-size: 16px; /* Font size */
+    z-index: 1;
+}
+
+.part1 .left p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px; /* Add spacing below the paragraph */
+}
+/* Style for the button */
+.btn-container .btn-outline-primary {
+    justify-content: left;
+    color: #008080;
+    border-color: #008080;
+    padding: 10px 20px;
+    border-radius: 7px;
+    width: 148px;
+    height: 56px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 20px;
+    font-weight: 500px;
+
+}
+
+.btn-container .btn-outline-primary:hover {
+    background-color: #008080;
+    color: white;
+}
+
+.contact-info {
+    background-color: #cce6e6;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.grid-container2 {
+    height: auto;
+    display: grid;
+    grid-template-columns: auto 1fr; /* Image takes auto width, text takes the remaining space */
+    align-items: center; /* Align image and text vertically */
+    gap: 10px; /* Gap between the image and text */
+    background-color: #fff;
+    padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto 1fr; /* Image takes auto width, text takes the remaining space */
+    align-items: center; /* Align image and text vertically */
+    gap: 10px; /* Gap between the image and text */
+    background-color: #fff;
+    padding: 10px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+}
+
+.grid-container p {
+    font-size: 0.95rem;
+    color: #333;
+}
+
+strong {
+    font-weight: bold;
+    color: #000;
+}
+.part1 .right{
+    z-index: 1;
+}
+.part1 .right {
+    background-color: white;
+    border-radius: 20px;
+}
+
+.part1 .right .contact-section h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.part1 .right .contact-card .grid-container2 img {
+    height: 12px;
+    width: 12px;
+}
+
+.part1 .right .contact-card .grid-container2 h3 {
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 2px;
+}
+
+.part1 .right .contact-card .contact-section img {
+    height: 37.65px;
+    width: 37.65px;
+}
+
+.part1 .right .contact-card .contact-section .grid-container p {
+    font-size: 14.82px;
+    font-weight: 400;
+}
+
+.part1 .right .contact-card .contact-section .grid-container p strong {
+    font-size: 13.18px;
+    font-weight: 400;
+}
+
+/* Responsive Styles */
+@media (max-width: 1400px){
+    .part1 .row .left-bottom{
+        position: absolute;
+        top: 56%;
+        left: 2.9%;
+
+    }
+}
+@media (max-width: 1200px){
+    .part1 .left .left-bottom{
+        position: relative;
+        top:79%;
+        right: 13%;
+    }
+
+
+}
+@media (max-width: 992px) { /* Medium screens */
+    .part1 .left h1 {
+        font-size: 36px; /* Smaller font size */
+    }
+
+    .part1 .left p {
+        font-size: 18px; /* Smaller paragraph font size */
+    }
+
+    .fixed-textarea {
+        height: 100px; /* Adjust height for smaller screens */
+    }
+}
+@media (max-width: 777px){
+    .part1 .row .left-bottom{
+        position: absolute;
+        top: 50%;
+        
+    }
+}
+@media (max-width: 768px) { /* Small screens */
+    .part1 .row {
+        flex-direction: column; /* Stack columns vertically */
+    }
+
+    .part1 .left, .part1 .right {
+        width: 100%; /* Full width for both sections */
+    }
+
+    .contact-info {
+        margin-bottom: 20px; /* Space between contact info and form */
+    }
+
+    .btn-control {
+        text-align: center; /* Center button on small screens */
+    }
+
+    .fixed-textarea {
+        height: 80px; /* Further adjust height */
+    }
+}
+@media (max-width: 768px) {
+    .left-bottom {
+        width: 30%; /* Adjust for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .left-bottom {
+        position: relative;
+        width: 40%; /* Further adjust for very small screens */
+    }
+}
+
+@media (max-width: 576px) { /* Extra small screens */
+    .part1 .left h1 {
+        font-size: 28px; /* Even smaller heading */
+    }
+
+    .part1 .left p {
+        font-size: 16px; /* Smaller paragraph font size */
+    }
+
+    .fixed-textarea {
+        height: 60px; /* Further adjust height */
+    }
+
+    .grid-container p {
+        font-size: 0.85rem; /* Smaller font for grid items */
+    }
+
+    .icon {
+        width: 30px; /* Smaller icon size */
+        height: 30px;
+    }
+}
+/* PART 2 */
+.part2{
+    margin-top: 100px;
+}
+
+.part2 h3{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: system-ui, Ubuntu, sans-serif;
+   
+
+}
+.part2 p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: system-ui, Ubuntu, sans-serif;
+}
+.part2 .row .p2-heading-image{
+    width: 72.8px;
+    height: 72px;
+
+
+}

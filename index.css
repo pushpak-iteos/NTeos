@@ -1,0 +1,1873 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main .m-content{
+    color: #747582;
+    padding-bottom: 15px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* All heading  */
+
+.heading h2{
+    padding: 10px 0px;
+    margin-top: 1vh;
+    font-size: 56px;
+    color: #282C4B;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+}
+
+/* heading end */
+.line{
+    width: auto;
+}
+
+ .logo .logo-2{
+    margin: 10px;
+    text-decoration: none;
+    background-color: #DDE8F0;
+    color: #176AAA;
+    padding: 10px 10px;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 428px){
+    .logo .logo-2{
+        margin: 0px;
+        border-radius: 50px;
+        padding: 0px 0px;
+    }
+    .logo .logo-2 span{
+        font-size: 10px;
+    }
+}
+
+
+/* part one */
+
+.main .rounded_text #text_first , #text_second, #text_third{
+    font-size: 56px;
+    font-weight: bold;
+    color:#ffcc66;
+}
+
+.main .rounded_text #text_second{
+    color: rgb(241, 112, 134);
+}
+
+.main .rounded_text #text_third{
+    color: rgb(80, 84, 185);
+}
+
+.rounded_text {
+    position: relative;
+    height: 90px; 
+    overflow: hidden;
+}
+
+.text {
+    position: absolute; 
+    width: 100%;
+    /* text-align: center; */
+    opacity: 0; 
+    transition: opacity 1s ease;
+    top: 100%; 
+}
+
+.text.active {
+    opacity: 1; 
+    animation: slide-in 1s ease forwards;
+}
+
+@keyframes slide-in {
+    0% {
+        top: 100%; 
+        opacity: 0; 
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
+
+@keyframes slide-out {
+    0% {
+        top: 0; /* Start at the final position */
+        opacity: 1; /* Fully visible */
+    }
+    100% {
+        top: -100%; /* Move off-screen */
+        opacity: 0; /* Become hidden */
+    }
+}
+
+
+.part1 .position-relative {
+    position: relative;
+    overflow: hidden;
+    display: flex; /* Enable flexbox for responsive positioning */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: space-between; /* Distribute images from left to right */
+}
+
+
+.part1 .right {
+    width: 100%;
+    height: auto;   
+}
+
+.part1 .overlay-image {
+    position: absolute;
+    border-radius: 15px;
+    height: auto;
+    opacity: 0; /* Initially hidden */
+    animation: fadeIn 2s forwards; /* Fade in animation */
+}
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Floating animation for up and down movement */
+@keyframes floatUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Move from center to original position */
+@keyframes moveFromCenter {
+    from {
+        opacity: 0;
+        top: 40%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+    to {
+        opacity: 1;
+        top: 12%;
+        left: 45%;
+    }
+}
+
+@keyframes moveFromCenterAfter80 {
+    from {
+        opacity: 0;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    to {
+        opacity: 1;
+        top: 2%;
+        left: 65%;
+    }
+}
+
+@keyframes moveFromCenterThird {
+    from {
+        opacity: 0;
+        top: 40%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+    to {
+        opacity: 1;
+        top: 70%;
+        left: 0%;
+    }
+}
+
+
+/* All buttons */
+
+.part1 button, .part2_3 button {
+    
+    background-color: #008080;
+    width: 180px;
+    height: 56px;
+    font-size: 20px;
+    color: white;
+}
+.part1 button:hover, .part2_3 button:hover {
+    
+    background-color: #006c6c;
+}
+
+.part1 button:active, .part2_3 button:active {
+    
+    background-color: #006c6c;
+}
+.part8 .left .left-bottom button{
+        background-color: transparent;
+        width: 180px;
+        height: 56px;
+        font-size: 20px;
+        color: #9CA3AF;;       
+        border-color: #9CA3AF; 
+}
+
+.part8 .left .left-bottom button:hover {
+    background-color: #008080;
+    width: 180px;
+    height: 56px;
+    font-size: 20px;
+    color: white;
+    transition: all 0.3s ease-in;
+}
+
+/* button end */
+
+
+.part1 .right {
+    position: relative; /* Keep it relative for absolutely positioned children */
+    min-height: 539px; 
+}
+.second_part {
+    width: 100%; /* Ensure the second_part takes full width */
+    /* height: 100  0px; */
+}
+.part1 .right img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 10px;
+}
+.part1 #i-first,
+.part1 #i-second {
+    max-height: 350px;
+    max-width: 280px;
+    animation: fadeIn 2s forwards, floatUpDown 3s ease-in-out 2s infinite;
+}
+/* Image positions */
+.part1 #i-first {
+    top: 0%;
+    left: 0%;
+    animation-delay: 1s; /* Slight delay */
+}
+
+.part1 #i-second {
+    top: 35%;
+    left: 45%;
+    animation-delay: 1.5s; /* Slight delay */
+}
+/* Move i-third */
+.part1 #i-third {
+    
+    max-width: 20%;
+    animation: moveFromCenterThird 2s ease forwards;
+    animation-delay: 4s;
+    
+}
+.part1 #i-fourth{
+    top: 70%;
+    left: 20%;
+    animation: fadeIn 2s forwards, floatUpDown 3s ease-in-out 2s infinite;
+}
+
+/* 80+ starts in the center and moves to its position */
+.part1 #i-fifth{
+    top: 10%;
+    left: 16%;
+    max-width: 20%;
+    animation: moveFromCenter 2s ease forwards;
+    animation-delay: 3s; /* Delay after first and second images appear */
+}
+
+/* 30+ starts in the center and moves to its position after 80+ */
+.part1 #i-sixth{
+    top: 10%;
+    left: 16%;
+    max-width: 20%;
+    animation: moveFromCenterAfter80 2s ease forwards;
+    animation-delay: 5s; /* Delay after 80+ appears */
+}
+
+
+@media screen and (max-width: 1400px) {
+    
+    .part1 #i-first,
+    .part1 #i-second {
+        max-height: 350px;
+        max-width: 210px;
+    }
+
+.part1 #i-second {
+    top: 28%;
+    left: 45%;
+    animation-delay: 1.5s; /* Slight delay */
+}
+.part1 #i-fourth {
+    top: 57%;
+    left: 23%;
+    width: 100px;
+}
+@keyframes moveFromCenterThird {
+    from {
+        opacity: 0;
+        top: 40%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+    to {
+        opacity: 1;
+        top: 60%;
+        left: 0%;
+    }
+}
+/* Move from center to original position */
+@keyframes moveFromCenter {
+    from {
+        opacity: 0;
+        top: 40%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+    to {
+        opacity: 1;
+        top: 12%;
+        left: 47%;
+    }
+}
+
+@keyframes moveFromCenterAfter80 {
+    from {
+        opacity: 0;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    to {
+        opacity: 1;
+        top: 3%;
+        left: 65%;
+    }
+}
+
+/* 80+ starts in the center and moves to its position */
+.part1 #i-fifth{
+    top: 10%;
+    left: 16%;
+    max-width: 20%;
+    animation: moveFromCenter 2s ease forwards;
+    animation-delay: 3s; /* Delay after first and second images appear */
+}
+
+/* 30+ starts in the center and moves to its position after 80+ */
+.part1 #i-sixth{
+    top: 10%;
+    left: 16%;
+    max-width: 20%;
+    animation: moveFromCenterAfter80 2s ease forwards;
+    animation-delay: 5s; /* Delay after 80+ appears */
+}
+
+    
+}
+
+@media screen and (max-width: 1199px) {
+    
+    .part1 #i-first,
+    .part1 #i-second {
+        max-height: 350px;
+        max-width: 210px;
+    }
+
+.part1 #i-second {
+    top: 28%;
+    left: 50%;
+    animation-delay: 1.5s; /* Slight delay */
+}
+.part1 #i-fourth {
+    top: 57%;
+    left: 26%;
+    width: 100px;
+}
+@keyframes moveFromCenterThird {
+    from {
+        opacity: 0;
+        top: 40%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+    to {
+        opacity: 1;
+        top: 60%;
+        left: 0%;
+    }
+}
+/* Move from center to original position */
+@keyframes moveFromCenter {
+    from {
+        opacity: 0;
+        top: 40%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+    to {
+        opacity: 1;
+        top: 12%;
+        left: 53%;
+    }
+}
+
+@keyframes moveFromCenterAfter80 {
+    from {
+        opacity: 0;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    to {
+        opacity: 1;
+        top: 2%;
+        left: 70%;
+    }
+}
+
+/* 80+ starts in the center and moves to its position */
+.part1 #i-fifth{
+    top: 10%;
+    left: 16%;
+    max-width: 20%;
+    animation: moveFromCenter 2s ease forwards;
+    animation-delay: 3s; /* Delay after first and second images appear */
+}
+
+/* 30+ starts in the center and moves to its position after 80+ */
+.part1 #i-sixth{
+    top: 10%;
+    left: 16%;
+    max-width: 20%;
+    animation: moveFromCenterAfter80 2s ease forwards;
+    animation-delay: 5s; /* Delay after 80+ appears */
+}
+
+    
+}
+@media screen and (max-width: 990px) {
+    /* First and second image floating */
+    @keyframes moveFromCenterThird {
+        from {
+            opacity: 0;
+            top: 40%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+        }
+        to {
+            opacity: 1;
+            top: 60%;
+            left: 0%;
+        }
+    }
+    @keyframes moveFromCenter {
+        from {
+            opacity: 0;
+            top: 40%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+        }
+        to {
+            opacity: 1;
+            top: 8%;
+            left: 38%;
+        }
+    }
+    
+    @keyframes moveFromCenterAfter80 {
+        from {
+            opacity: 0;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        to {
+            opacity: 1;
+            top: 0%;
+            left: 50%;
+        }
+    }
+
+
+.part1 #i-first,
+.part1 #i-second {
+    max-height: 20rem;
+    width: 55%;
+    animation: fadeIn 2s forwards, floatUpDown 3s ease-in-out 2s infinite;
+}
+.part1 #i-fourth{
+    top: 60%;
+    left: 15%;
+    width: 15%;
+}
+
+.part1 #i-fifth{
+    width: 15%;
+}
+
+.part1 #i-sixth{
+    width: 15%;
+}
+
+.part1 #i-second {
+    top: 25%;
+    left: 35%;
+    animation-delay: 1.5s; /* Slight delay */
+}
+
+}
+@media screen and (max-width: 768px) {
+    .part1 .left_text, .heading h2 {
+        font-size: 28px; /* Reduce heading size */
+    }
+    .m-content{
+        font-size: 16px;
+    }
+    .part1 .rounded_text{
+        height: 40px; 
+    }
+
+    .part1 .rounded_text #text_first, #text_second , #text_third{
+        font-size: 28px; /* Reduce heading size */
+       
+    }
+    .part1 .text {
+        max-width: 100%; /* Allow more space for the text */
+    }
+
+    .part1 button {
+        width: 150px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    @keyframes moveFromCenterThird {
+        from {
+            opacity: 0;
+            top: 40%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+        }
+        to {
+            opacity: 1;
+            top: 60%;
+            left: 0%;
+        }
+    }
+    @keyframes moveFromCenter {
+        from {
+            opacity: 0;
+            top: 40%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+        }
+        to {
+            opacity: 1;
+            top: 8%;
+            left: 48%;
+        }
+    }
+    
+    @keyframes moveFromCenterAfter80 {
+        from {
+            opacity: 0;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        to {
+            opacity: 1;
+            top: 0%;
+            left: 70%;
+        }
+    }
+
+
+.part1 #i-first,
+.part1 #i-second {
+    max-height: 20rem;
+    width: 55%;
+    animation: fadeIn 2s forwards, floatUpDown 3s ease-in-out 2s infinite;
+}
+.part1 #i-fourth{
+    top: 58%;
+    left: 25%;
+    width: 18%;
+}
+
+.part1 #i-fifth{
+    width:  20%;
+}
+
+.part1 #i-sixth{
+    width: 25%;
+}
+
+.part1 #i-second {
+    top: 25%;
+    left: 47%;
+    animation-delay: 1.5s; /* Slight delay */
+}
+
+}
+@media screen and (max-width: 503px) {
+    /* First and second image floating */
+    
+    
+    @keyframes moveFromCenterThird {
+        from {
+            opacity: 0;
+            top: 40%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+        }
+        to {
+            opacity: 1;
+            top: 55%;
+            left: 0%;
+        }
+    }
+    @keyframes moveFromCenter {
+        from {
+            opacity: 0;
+            top: 40%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+        }
+        to {
+            opacity: 1;
+            top: 8%;
+            left: 48%;
+        }
+    }
+    
+    @keyframes moveFromCenterAfter80 {
+        from {
+            opacity: 0;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        to {
+            opacity: 1;
+            top: 0%;
+            left: 70%;
+        }
+    }
+
+
+.part1 #i-first,
+.part1 #i-second {
+    max-height: 20rem;
+    width: 45%;
+    animation: fadeIn 2s forwards, floatUpDown 3s ease-in-out 2s infinite;
+}
+.part1 #i-fourth{
+    top: 55%;
+    left: 22%;
+    width: 22%;
+}
+
+
+.part1 #i-second {
+    top: 22%;
+    left: 50%;
+    animation-delay: 1.5s; /* Slight delay */
+}
+
+}
+@media screen and (max-width: 450px) {
+    /* First and second image floating */
+    
+ 
+.part1 #i-fourth{
+    top: 49%;
+    left: 22%;
+    width: 22%;
+}
+
+
+
+
+}
+@media screen and (max-width: 400px) {
+    /* First and second image floating */
+    
+    
+    @keyframes moveFromCenterThird {
+        from {
+            opacity: 0;
+            top: 40%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+        }
+        to {
+            opacity: 1;
+            top: 40%;
+            left: 0%;
+        }
+    }
+    @keyframes moveFromCenter {
+        from {
+            opacity: 0;
+            top: 40%;
+            left: 30%;
+            transform: translate(-50%, -50%);
+        }
+        to {
+            opacity: 1;
+            top: 10%;
+            left: 48%;
+        }
+    }
+    
+    @keyframes moveFromCenterAfter80 {
+        from {
+            opacity: 0;
+            top: 25%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        to {
+            opacity: 1;
+            top: 4%;
+            left: 70%;
+        }
+    }
+
+
+.part1 #i-first,
+.part1 #i-second {
+    max-height: 20rem;
+    width: 45%;
+    animation: fadeIn 2s forwards, floatUpDown 3s ease-in-out 2s infinite;
+}
+.part1 #i-fourth{
+    top: 40%;
+    left: 22%;
+    width: 22%;
+}
+
+.part1 #i-sixth{
+    width: 25%;
+}
+
+.part1 #i-second {
+    top: 22%;
+    left: 50%;
+    animation-delay: 1.5s; /* Slight delay */
+}
+
+}
+
+.part1 .r-first img {
+    margin-right: 5px;
+    width: 24px;
+    height: auto;
+}
+
+.part1 .s-second {
+    padding-left: 0;
+}
+
+
+/* part two */
+/* General adjustments */
+
+.part2_3 .part1 {
+    background-color: #f3f4f6;
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.part2_3 .row .right {
+    padding-top: 40px;
+}
+
+.part2_3 .left {
+    position: relative;
+    overflow: hidden;
+    height: 700px;
+    width: 100%;
+}
+
+/* Images inside the left section */
+.part2_3 .left .fi {
+    right: 5%;
+    position: absolute;
+    max-width: 414px;
+    min-height: 600px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.part2_3 .right .m-content {
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+}
+
+/* Media query for screens less than 1255px */
+@media (max-width: 1400px) {
+    .part2_3 .left {
+        margin-top: 30px;
+    }
+
+    .part2_3 .left .fi {
+        right: 7%;
+        margin-top: 50px;
+        max-width: 354px;
+        min-height: 500px;   
+    }
+    .part2_3 .left .second-image {
+        /* width: 30%; */
+        /* height: 25%; */
+       top: 65%;
+        left: 0%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .part2_3 .left {
+        margin-top: 50px;
+    }
+
+    .part2_3 .left .fi {
+        right: 7%;
+        margin-top: 50px;
+        max-width: 304px;
+        min-height: 450px;   
+    }
+    .part2_3 .left .second-image {
+        width: 40%; 
+        /* height: 25%; */
+       top: 58%;
+        left: 0%;
+    }
+}
+
+@media (max-width: 991px) {
+    .part2_3 .left {
+        margin-top: 20px;
+        height: 400px;
+    }
+
+    .part2_3 .left .fi {
+        right: 30%;
+        margin-top: 50px;
+        max-width: 250px;
+        min-height: 350px;   
+    }
+    .part2_3 .left .second-image {
+        width: 25%; 
+        height: 25%;
+        top: 75%;
+        left: 10%;
+    }
+    .part2_3 .row .right {
+        padding-top:    0px;
+    }
+}
+/* Media query for screens less than 479px (mobile view) */
+@media (max-width: 478px) {
+    /* Adjusting left section */
+    .part2_3 .left {
+        margin-top: 20px;
+        height: 200px;
+    }
+
+    .part2_3 .left .fi {
+        left: 5%;
+        max-width: 400px;
+        min-height: 300px;   
+    }
+    .part2_3 .left .second-image {
+        width: 25%; 
+        height: 25%;
+        bottom: 0%;
+        left: 0%;
+
+    }
+    .part2_3 .row .right {
+        padding-top:    0px;
+    }
+}
+@media (max-width: 490px) {
+    /* Adjusting left section */
+   
+
+    .part2_3 .left .fi {
+        left: 5%;
+        max-width: 300px;
+        min-height: 300px;   
+    }
+    
+}
+
+
+/* Second image position */
+.part2_3 .left .second-image {
+    position: absolute;
+    bottom: 1%;
+    left: 0%;
+}
+
+/* Partners section */
+.part2_3 .right .partners {
+    padding-top: 30px;
+    border-top: 1px solid #e4e4e4;
+}
+
+.part2_3 .right .partners a {
+    border-bottom: 1px solid black;
+}
+
+.part2_3 .right .partners .Image {
+    width: 100%;
+}
+
+.part2_3 .right .partners .Image img {
+    height: 40px;
+    width: auto;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+
+.part2_3 .right .partners .Image .micro {
+    height: 75px;
+}
+
+
+/* part 3 */
+
+.part3_left .left {
+    
+    
+    position: relative; 
+    max-width: 650px;
+}
+
+/* .rectangle_first{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    max-width: 100%;
+} */
+
+.part3_left .left .rectangle_first {
+    
+    width: 70%;
+    height: 66%;
+    border: 2px solid #174A73; /* Border color */
+    background-color: #174A73;
+    border-radius: 10px; /* Optional: rounded corners */
+    /* margin: 80px 0;  */
+    top: 13%;
+    left: 0%;
+    position: absolute;
+    
+}
+
+
+.part3_left .left .rectangle_second {
+    
+    width: 70%;
+    height: 68%; 
+    
+    border: 2px solid #5D96C4; /* Border color */
+    background-color: #5D96C4;
+    border-radius: 10px; 
+    position: absolute;
+
+    top: 13px; 
+    left: 25%; /* Align with the left of the first rectangle */
+    opacity: 0.8;
+}
+
+.part3_left .left .rectangle_third {
+    position: absolute;
+    top: 7%;
+    width: 75%;
+    height: 68%; 
+    left: 50px; 
+}
+
+
+.part3_left .left .rectangle_third img{
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    top: 0%;
+    left: 0%;
+}
+
+.part3_left .left .rectangle_fourth {
+    width: 35%; 
+    height: 10%; 
+    position: absolute;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    top: 58%;
+    /* bottom: 180px; */
+    right: 0px;  
+   
+}
+
+
+.part3_left .left .rectangle_fourth img{
+    
+    border-radius: 10px;
+    width: 100%; 
+    height: 100%;  
+}
+
+@media screen and (max-width: 1200px) {
+    .part3_left .left .rectangle_first{
+        width: 80%;
+        height: 60%;
+        top: 13%;
+        left: 0%;   
+    }
+    
+    
+    .part3_left .left .rectangle_second {
+        width: 80%;
+        height: 60%;
+        top: 13px; 
+        left: 25%; /* Align with the left of the first rectangle */
+    }
+    
+    .part3_left .left .rectangle_third {
+        top: 2%;
+        width: 80%;
+        height: 68%; 
+        left: 50px; 
+    }
+    
+    .part3_left .left .rectangle_fourth {
+        width: 35%; 
+        height: 10%; 
+        top: 50%;
+        right: 0px;  
+       
+    }
+    
+    
+    .part3_left .left .rectangle_fourth img{
+        
+        border-radius: 10px;
+        width: 100%; 
+        height: 100%;  
+    }
+    
+}
+@media screen and (max-width: 991px) {
+    .part3_left .left{
+        margin-left: 100px;
+        
+    }
+
+    .part3_left .left .rectangle_first{
+        width: 30%;
+        height: 60%;
+        top: 15%;
+        left: 0%;   
+    }
+    
+    
+    .part3_left .left .rectangle_second {
+        width: 30%;
+        height: 60%;
+        top: 13px; 
+        left: 15%; /* Align with the left of the first rectangle */
+    }
+    
+    .part3_left .left .rectangle_third {
+
+        top: 10%;
+        width: 30%;
+        height: 60%; 
+        left: 50px; 
+    }
+    
+    .part3_left .left .rectangle_fourth {
+        width: 22%; 
+        height: 10%; 
+        top: 55%;
+        left:30%;  
+       
+    }
+    
+    
+    .part3_left .left .rectangle_fourth img{
+        
+        border-radius: 10px;
+        width: 100%; 
+        height: 100%;  
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .part3_left .left{
+        margin-top: 50px;
+        /* height: 0px;    */
+    }
+
+    .part3_left .left .rectangle_first{
+        width: 45%;
+        height: 75%;
+        top: 13%;
+        left: 0%;   
+    }
+    
+    
+    .part3_left .left .rectangle_second {
+        width: 45%;
+        height: 75%;
+        top: 0%; 
+        left: 15%; /* Align with the left of the first rectangle */
+    }
+    
+    .part3_left .left .rectangle_third {
+        top: 8%;
+        width: 45%;
+        height: 75%; 
+        left: 45px; 
+    }
+    
+    .part3_left .left .rectangle_fourth {
+        width: 30%;
+
+        height: 15%; 
+        top: 65%;
+        left: 40%;  
+       
+    }
+    
+    
+    .part3_left .left .rectangle_fourth img{
+        
+        border-radius: 10px;
+        width: 100%; 
+        height: 100%;  
+    }
+    
+}
+@media screen and (max-width: 478px) {
+   
+    .part3_left .left .rectangle_first{
+        margin-left: 50px;
+        width: 30%;
+        height: 85%;
+        top: 13%;
+        left: 0%;   
+    }
+    
+    
+    .part3_left .left .rectangle_second {
+        width: 30%;
+        height: 85%;
+        top: 2%; 
+        left: 25%; /* Align with the left of the first rectangle */
+    }
+    
+    .part3_left .left .rectangle_third {
+        top: 7%;
+        width: 45%;
+        height: 85%; 
+        left: 45px; 
+    }
+    
+    .part3_left .left .rectangle_fourth {
+        width: 20%;
+        height: 15%; 
+        top: 60%;
+        left: 40%;  
+       
+    }
+    
+    
+    .part3_left .left .rectangle_fourth img{  
+        width: 100%; 
+        height: 100%;  
+    }
+    
+}
+@media screen and (max-width: 420px) {
+    .part3_left .left{
+        margin-left: 50px;
+    }
+
+    .part3_left .left .rectangle_first{
+        width: 35%;
+        height: 85%;
+        top: 13%;
+        left: 0%;   
+    }
+    
+    
+    .part3_left .left .rectangle_second {
+        width: 35%;
+        height: 85%;
+        top: -2%; 
+        left: 30%; /* Align with the left of the first rectangle */
+    }
+    
+    .part3_left .left .rectangle_third {
+        top: 5%;
+        width: 45%;
+        height: 85%; 
+        left: 55px; 
+    }
+    
+    .part3_left .left .rectangle_fourth {
+        width: 25%;
+        height: 8%; 
+        top: 83%;
+        left: 35%;  
+       
+    }
+    
+    
+    .part3_left .left .rectangle_fourth img{  
+        width: 100%; 
+        height: 100%;  
+    }
+    
+}
+@media screen and (max-width: 381px) {
+    .part3_left .left{
+        margin-left: 30px;
+    }
+
+    .part3_left .left .rectangle_first{
+        width: 45%;
+        height: 85%;
+        top: 13%;
+        left: 0%;   
+    }
+    
+    
+    .part3_left .left .rectangle_second {
+        width: 45%;
+        height: 85%;
+        /* top: -2%;  */
+        left: 30%; /* Align with the left of the first rectangle */
+    }
+    
+    .part3_left .left .rectangle_third {
+        top: 5%;
+        width: 45%;
+        height: 85%; 
+        left: 65px; 
+    }
+    
+    .part3_left .left .rectangle_fourth {
+        width: 25%;
+        height: 12%; 
+        top: 68%;
+        left: 55%;  
+       
+    }
+    
+    
+    .part3_left .left .rectangle_fourth img{  
+        width: 100%; 
+        height: 100%;  
+    }
+    
+}
+
+
+
+
+/* part 4 */
+
+
+
+
+.part4 .card .lower{ 
+    width: 120px; 
+}
+
+
+
+.part4 .card  .empty{
+    margin-left: 60px;
+    width: 100px; 
+    height: 7px;
+    background-color: #E5E7EB;
+}
+
+
+/* Smooth transition for the card */
+.card {
+    position: relative;
+    transition: transform 0.4s ease-in-out;
+  }
+  
+  /* Flip animation for the image */
+  .flip-image {
+    transition: transform 0.4s ease-in-out;
+    transform-origin: center;
+  }
+  
+  /* Hover state for the card */
+  .card:hover {
+    transform: translateY(-10px); /* Moves the card up smoothly */
+  }
+  
+  /* Image flip effect on hover */
+  .card:hover .flip-image {
+    transform: rotateY(180deg); /* Flips the image */
+  }
+  
+
+.part4 .card:hover  .empty{
+    
+    background-color: #008080;
+}
+
+.part4 .card-heading h5{
+    font-weight: bold;
+    /* background-color: #000000; */
+}
+
+/* part 5 */
+.part5 {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.part5 .align-middle {
+    background-color: #008080;
+    background-image: url("assets/images/Frame 777070.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 16em;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Center the stats section with a max-width */
+.part5 .stats {
+    width: 100%;
+    max-width: 1200px; /* Limit the width */
+    margin: 0 auto; /* Center the stats container */
+    padding: 20px; /* Padding for spacing */
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically in the center */
+    text-align: center;
+    color: white;
+    box-sizing: border-box; /* Ensure padding and border don't affect width */
+    z-index: 10;
+    flex-wrap: wrap; /* Ensure stats wrap on smaller screens */
+}
+
+/* Adjust each stat item to flex properly */
+.part5 .stat-item {
+    flex: 1; /* Allow each item to take up equal space */
+    min-width: 200px; /* Prevent items from becoming too small */
+    margin: 10px; /* Add space between items */
+    font-size: 1.5rem; /* Responsive font size */
+}
+
+/* Ensure counter and label scale properly */
+.part5 .counter {
+    font-size: 2.5rem; /* Use rem for responsive scaling */
+    font-weight: bold;
+    opacity: 0;
+    transform: translateY(50px) scale(0.5);
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+}
+
+.part5 .label {
+    margin-top: 5px;
+    font-size: 1.2rem; /* Adjusted for better scaling */
+    opacity: 0;
+    transform: translateY(50px);
+    transition: transform 0.8s ease-in-out, opacity 0.8s ease-in-out;
+}
+
+/* On appearance, counter and label animations */
+.part5 .stat-item.appear .counter,
+.part5 .stat-item.appear .label {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+}
+
+/* Media queries for smaller screens */
+@media screen and (max-width: 992px) {
+    .part5 .stat-item{
+        margin: 0 0;
+        padding-top: 0px;
+    }
+    .part5 .stat-item {
+        font-size: 1.25rem;
+    }
+    .part5 .counter {
+        font-size: 1rem;
+    }
+    .part5 .label {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .part5 .stat-item {
+        font-size: 1.25rem;
+    }
+    .part5 .counter {
+        font-size: 1rem;
+    }
+    .part5 .label {
+        font-size: 1rem;
+    }
+}
+
+
+/* part 6 */
+
+.part6 .left {
+    display: flex; /* Enable flexbox */
+    justify-content: end; /* Center horizontally */
+    align-items: center; /* Align rectangles at the bottom */
+    position: relative; /* Needed for absolute positioning of the second rectangle */
+    height: 652px;
+    max-width: 100%;
+}
+
+
+.part6 .left .rectangle_first {
+    left: 5%;
+    top: 10%;
+    width: 75%; 
+    height: 80%; 
+    border: 2px solid #E0F8F8; 
+    background-color: #E0F8F8;
+    border-radius: 10px; 
+    position: absolute;
+}
+
+.part6 .left .image {
+    width: 100%; 
+    height: 90%; 
+    position: absolute;
+    top: 0%;
+    left:15%;
+    
+    object-fit: cover;
+   
+}
+
+
+
+
+.accordion-button {
+    margin-top: 30px;
+    font-size: 1.25rem; /* Increase the text size of the button */
+    /* font-weight: bold; */
+    font-weight: 400;
+    color: #4D4D4D;
+    border: none !important;
+    padding-top: 0px !important;
+    font-family: "Ubuntu", sans-serif;
+
+}
+
+.accordion-body {
+    font-size: 1.1rem; /* Increase the text size of the accordion content */
+     color: #4D4D4D;
+
+}
+
+.accordion-button:focus {
+    box-shadow: none !important; 
+    background-color: transparent !important; 
+    border-color: transparent; 
+    outline: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #008080 !important;
+    /* background-color: #e7f1ff; */
+}
+
+@media (max-width: 1200px) {
+    .part6 .left {
+        height: 502px;
+        max-width: 80%;
+    }
+    
+    
+    .part6 .left .rectangle_first {
+        left: 5%;
+        top: 30%;
+        width: 75%; 
+        height: 75%; 
+    }
+    
+    .part6 .left .image {
+        width: 75%; 
+        height: 60%; 
+        
+        top: 20%;
+        left:15%;
+       
+    }
+    
+}
+@media (max-width: 992px) {
+    .part6 .left {
+        height: 452px;
+        max-width: 80%;
+    }
+    
+    
+    .part6 .left .rectangle_first {
+        left: 10%;
+        top: 30%;
+        width: 55%; 
+        height: 75%; 
+    }
+    
+    .part6 .left .image {
+        width: 50%; 
+        height: 50%; 
+        
+        top: 15%;
+        left:25%;
+       
+    }
+    
+}
+@media (max-width: 768px) {
+    .part6 .left {
+        height: 370px;
+        max-width: 80%;
+    }
+    
+}
+@media (max-width: 527px) {
+    .part6 .left {
+        height: 350px;
+        max-width: 80%;
+    }
+    
+}
+@media (max-width: 470px) {
+    .part6 .left {
+        height: 330px;
+        max-width: 80%;
+    }
+    
+}
+@media (max-width: 430px) {
+    .part6 .left {
+        height: 300px;
+        max-width: 80%;
+    }
+    
+}
+@media (max-width: 400px) {
+    .part6 .left {
+        height: 252px;
+        max-width: 80%;
+    }
+    
+    
+    .part6 .left .rectangle_first {
+        left: 30%;
+        top: 30%;
+        width: 55%; 
+        height: 75%; 
+    }
+    
+    .part6 .left .image {
+        width: 50%; 
+        height: 50%; 
+        
+        top: 15%;
+        left:50%;
+       
+    }
+    
+}
+
+.part7 {
+    margin-top: 10px;
+    overflow: hidden; /* Hide overflowing logos */
+    position: relative; /* Position relative for absolute positioning of the animation */
+    border-top: 2px solid #008080; /* Top border */
+    border-bottom: 2px solid #008080; /* Bottom border */
+    padding: 20px 0; /* Add padding to the top and bottom */
+}
+
+.part7 .row {
+    display: flex;
+    position: relative;
+}
+
+
+
+.part7 .logos {
+    display: flex; /* Use flexbox for horizontal alignment */
+    flex-wrap: nowrap; /* No wrapping */
+    animation: move 10s linear infinite; /* Apply animation */
+    white-space: nowrap; /* Prevent wrapping */
+}
+
+
+
+.part7 .logos img {
+    width: 200px; /* Set a larger width for logos */
+    height: auto; /* Maintain aspect ratio */
+    margin: 60px; /* Add margin around logos for spacing */
+}
+@keyframes move {
+    from{
+        transform: translateX();
+    }
+
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+
+
+/* part 8 */
+
+.part8 {
+    margin-top: 100px;
+    width: 100%;
+    padding-bottom: 100px;
+    /* height: 500px; */
+    /* background-color: #000000; */
+    background: linear-gradient(to right, white, #D6F7F6); 
+    border: solid #EBECEF 1px;
+}
+
+.part8 .card {
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow to cards */
+    transition: transform 0.3s ease; 
+}
+
+
+.part8 .card:hover {
+    transform: translateY(-10px); /* Move the card slightly upward on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Optional: Enhance shadow on hover */
+
+}
+
+.part8 .card {
+    width: 100%; /* Decrease width */
+    height: auto; /* Increase height */
+    border-radius: 10px;
+    margin: auto; /* Center the card in its column */
+    transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+.part8 .card h5{
+    width: 38px;
+    height: 24px;
+}
+
+.part8 .card-text{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 15px;
+    color: #000000;
+    
+}
+
+.part8 .card-body {
+    padding: 20px; 
+}
+
+.part8 .card-body img:hover{
+    color:rgb(229, 172, 1); 
+}
+
+.left-mid a{
+    color: #4D4D4D;
+    font-weight:600;
+    font-size: 1.25rem;
+}
+
+.part8 .left-mid a{
+    color: black;
+    font-weight:600;
+    font-size: 1.25rem;
+}
+
+.part8 .dynamic-image {
+    width: 7%; /* Ensures the image scales with the card */
+    height: auto; /* Maintains aspect ratio */
+    transition: opacity 1s ease; /* Smooth transition effect */
+}
+
+.part8 .dynamic-image.fade-out {
+    opacity: 0; /* Fade out effect */
+}
+
+
+
+
+/* part9  */
+.part9 .card {
+    border-radius: 15px;
+    height: 430px;
+}
+
+.part9 .card-text span {
+    border-bottom: 2px solid black;
+}
+
+.part9 .card-heading {
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.part9 .card-data {
+    max-width: 300px;
+    
+    color: #404040;
+    font-size: 1rem;
+}
+
+.part9 .end a {
+    color: #4d4d4d;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.part9 .hover-card {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease; /* Smooth transition for height */
+}
+
+.part9 .hover-card .card-body {
+    position: relative;
+    padding-bottom: 20px; /* Initial padding */
+    transition: padding-bottom 1s ease; /* Smooth padding transition */
+}
+
+.part9 .hover-card .read-story {
+    display: block;
+    /* text-align: center; */
+    margin-top: 10px;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 1s ease; /* Smooth opacity transition */
+    color: #008080;
+    font-weight: bold;
+}
+
+.part9 .hover-card:hover {
+    height: auto;
+}
+
+.part9 .hover-card:hover .card-body {
+    padding-bottom: 60px; /* Increase padding on hover to reveal the link */
+}
+
+.part9 .hover-card:hover .read-story {
+    opacity: 1; /* Show the anchor tag on hover */
+}
+
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item>div {
+        display: none;
+    }
+ 
+    .carousel-inner .carousel-item>div:first-child {
+        display: block;
+    }
+    .part9 .card {
+        /* border-radius: 15px; */
+        height: auto;
+    }
+}
+ 
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-start,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+ 
+}
+ 
+.carousel-item .card {
+    margin: 11px;
+}
+ 
+.carousel-control-prev-icon {
+    background-image: none !important;
+    margin-right: 82%;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+ 
+.carousel-control-next-icon {
+    background-image: none !important;
+    margin-left: 82%;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+ 
+.carousel-control-prev-icon img{
+    width: 50%;
+}
+ 
+.carousel-control-next-icon img{
+    width: 50%;
+}
+ 
+/* display 4 */
+@media (min-width: 768px) {
+ 
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next,
+    .carousel-item-next:not(.carousel-item-start) {
+        transform: translateX(25%) !important;
+    }
+ 
+    .carousel-inner .carousel-item-left.active,
+    .carousel-item-prev:not(.carousel-item-end),
+    .active.carousel-item-start,
+    .carousel-item-prev:not(.carousel-item-end) {
+        transform: translateX(-25%) !important;
+    }
+ 
+    .carousel-item-next.carousel-item-start,
+    .active.carousel-item-end {
+        transform: translateX(0) !important;
+    }
+ 
+    .carousel-inner .carousel-item-prev,
+    .carousel-item-prev:not(.carousel-item-end) {
+        transform: translateX(-25%) !important;
+    }
+}
