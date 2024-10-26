@@ -69,7 +69,7 @@
                   <img class="line img-fluid" src="./assets/images/Line.svg" alt="">
                 </div>
                 <div class="tex " style="max-width: 600px;">
-                  <p class="m-content fs-5 ">
+                  <p class="m-content ">
                     NTeos, a proud subsidiary of ITeos, will transform your business with innovative software solutions for growth. We are proud to say that we are an ISO-certified company, ensuring the highest standards in all we do. Our services will boost your companies efficiency and scalability.
                   </p>
                 </div>
@@ -123,7 +123,7 @@
                         </div>
       
                         <div >
-                          <p class="m-content fs-5">
+                          <p class="m-content">
                             At NTeos our approach is to combine smart teamwork with
                             innovative thinking, ensuring each project is completed
                             with the utmost care and attention to detail. We take
@@ -162,7 +162,7 @@
           <div class="part2_3 part3 mt-5">
             <div class="container">
             <div class="row">
-              <div class="right mt-3 col-sm-12 col-md-12 col-lg-7 px-5">
+              <div class="right mt-3 col-sm-12 col-md-12 col-lg-7">
                 <div class="logo partnership fs-6 fw-bold">
                   <a class="logo-2 px-5">
                   <img src="./assets/images/small dot-1.svg" alt="">
@@ -176,7 +176,7 @@
                   </div>
 
                   <div >
-                    <p class="m-content fs-5">
+                    <p class="m-content">
                       NTeos is thrilled to partner with ITeos, a leading IT
                       service provider in India with a 11+ years of experience.
                       Together, we're committed to delivering innovative
@@ -627,7 +627,7 @@
                   <div class="heading fw-bold">
                     <h2>What Our Clients Say</h2>
                   </div>
-                  <p class="m-content fs-5">
+                  <p class="m-content">
                     Our clients value our solutions for their reliability,
                     innovation, and seamless implementation.
                   </p>

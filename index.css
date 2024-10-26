@@ -16,7 +16,7 @@
 .heading h2{
     padding: 10px 0px;
     margin-top: 1vh;
-    font-size: 56px;
+    font-size: 3.5rem;
     color: #282C4B;
     font-weight: bold;
     font-family: "Ubuntu", sans-serif;
@@ -239,16 +239,16 @@
 
 
 .part1 .right {
-    position: relative; /* Keep it relative for absolutely positioned children */
+    position: relative; 
     min-height: 539px; 
 }
 .second_part {
-    width: 100%; /* Ensure the second_part takes full width */
-    /* height: 100  0px; */
+    width: 100%; 
+
 }
 .part1 .right img {
-    max-width: 100%; /* Make the image responsive */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; 
+    height: auto; 
     margin-top: 10px;
 }
 .part1 #i-first,
@@ -257,17 +257,18 @@
     max-width: 280px;
     animation: fadeIn 2s forwards, floatUpDown 3s ease-in-out 2s infinite;
 }
+
 /* Image positions */
 .part1 #i-first {
     top: 0%;
     left: 0%;
-    animation-delay: 1s; /* Slight delay */
+    animation-delay: 1s;
 }
 
 .part1 #i-second {
     top: 35%;
     left: 45%;
-    animation-delay: 1.5s; /* Slight delay */
+    animation-delay: 1.5s;
 }
 /* Move i-third */
 .part1 #i-third {
@@ -289,7 +290,7 @@
     left: 16%;
     max-width: 20%;
     animation: moveFromCenter 2s ease forwards;
-    animation-delay: 3s; /* Delay after first and second images appear */
+    animation-delay: 3s;
 }
 
 /* 30+ starts in the center and moves to its position after 80+ */
@@ -298,7 +299,7 @@
     left: 16%;
     max-width: 20%;
     animation: moveFromCenterAfter80 2s ease forwards;
-    animation-delay: 5s; /* Delay after 80+ appears */
+    animation-delay: 5s; 
 }
 
 
@@ -313,7 +314,7 @@
 .part1 #i-second {
     top: 28%;
     left: 45%;
-    animation-delay: 1.5s; /* Slight delay */
+    animation-delay: 1.5s; 
 }
 .part1 #i-fourth {
     top: 57%;
@@ -385,6 +386,11 @@
 
 @media screen and (max-width: 1199px) {
     
+    .heading h2, .rounded_text #text_first , #text_second, #text_third{
+        font-size: 2.5rem;    
+    }
+
+
     .part1 #i-first,
     .part1 #i-second {
         max-height: 350px;
@@ -711,7 +717,9 @@
 @media screen and (max-width: 400px) {
     /* First and second image floating */
     
-    
+    .part1 .right{
+        min-height: 350px;
+    }
     @keyframes moveFromCenterThird {
         from {
             opacity: 0;
@@ -721,7 +729,7 @@
         }
         to {
             opacity: 1;
-            top: 40%;
+            top: 65%;
             left: 0%;
         }
     }
@@ -761,7 +769,7 @@
     animation: fadeIn 2s forwards, floatUpDown 3s ease-in-out 2s infinite;
 }
 .part1 #i-fourth{
-    top: 40%;
+    top: 63%;
     left: 22%;
     width: 22%;
 }
@@ -771,7 +779,7 @@
 }
 
 .part1 #i-second {
-    top: 22%;
+    top: 28%;
     left: 50%;
     animation-delay: 1.5s; /* Slight delay */
 }
@@ -1172,6 +1180,13 @@
 }
 @media screen and (max-width: 478px) {
    
+    .part2_left{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
     .part3_left .left .rectangle_first{
         margin-left: 50px;
         width: 30%;

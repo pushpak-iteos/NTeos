@@ -38,18 +38,19 @@
     <title>Site Map</title>
 </head>
 <body>
-<div class="container-fluid">
-    <?php include './common/NavigationBar.php';?>
+<?php include './common/NavigationBar.php';?>
     <div class="rect" style="padding-top: 70px;">
         <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Rectangle 2599.svg"  alt="">
-        <h2>About Us</h2>
+        <h2>Site Map</h2>
         <p>
             Home 
             <img class="less-than-symbol" src="./assets/images/NavBar-ContactUs-Services-AboutUs/less-than-symbol 1.svg" alt="">
-            <span>About Us</span>
+            <span>Site Map</span>
         </p>
         </div>
   </div>
+<div class="container-fluid">
+    
 
   <div class="container" style="    display: flow-root;
     margin-top: 10%;">
@@ -113,7 +114,7 @@
            <li>
         </ul> 
     </div>
-    </div>
+</div>
     <?php include './common/footer.php';?>
       <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"

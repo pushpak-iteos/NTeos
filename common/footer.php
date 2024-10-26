@@ -43,7 +43,7 @@
                 <ul class="sub-content mt-4">
                   <li><a href="./AboutUs.php">About us</a></li>
                   <li><a href="./blogs.php">Blog</a></li>
-                  <li><a href="#Site Map">Site Map</a></li>
+                  <li><a href="./sitemap.php">Site Map</a></li>
                   <li><a href="#Privacy">Privacy</a></li>
                   <li><a href="#TermsAndServices">Terms and Services</a></li>
                 </ul>
