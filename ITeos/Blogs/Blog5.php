@@ -39,11 +39,11 @@
   
     </div>
     <div class="rect" style="padding-top: 70px;">
-        <img src="../assets/images/Blue-Background.svg"  alt="">
+        <img src="../assets/images/Blue-Background.svg"  alt="Nav-below-blue-bg">
         <h2>Blog Details</h2>
         <p>
            Blogs 
-          <img class="less-than-symbol" src="../assets/images/less-than-symbol 2.svg" alt="">
+          <img class="less-than-symbol" src="../assets/images/less-than-symbol 2.svg" alt="blue-bg-less-than-symbol">
           <span>Blog Details</span>
         </p>
       </div>
@@ -58,7 +58,7 @@
           />
 
           <div class="date">
-            <p><span><img src="../assets/images/Blogs/Calendar.svg" alt=""></span>Jan  14, 2024/ <span></span><img src="../assets/images/Blogs/Chats.svg" alt="">3/ by Ethan Parker
+            <p><span><img src="../assets/images/Blogs/Calendar.svg" alt="blogs-calender"></span>Jan  14, 2024/ <span></span><img src="../assets/images/Blogs/Chats.svg" alt="blogs-chats">3/ by Ethan Parker
             </p>
             
           </div>
@@ -138,7 +138,7 @@
           <img
             class="img-fluid pt-5"
             src="../assets/images/Blogs/tags.svg"
-            alt=""
+            alt="blogs-tags"
           />
         </div>
 
@@ -170,10 +170,10 @@
             </div>
             <div class="container m-3">
               <div class="social-icons">
-                <a class="px-1" href="#"><img src="../assets/images/Blogs/p-facebook.svg" alt=""></i></a>
-                <a class="px-1" href="#"><img src="../assets/images/Blogs/p-twitter.svg" alt=""></a>
-                <a class="px-1" href="#"><img src="../assets/images/Blogs/p-instagram.svg" alt=""></a>
-                <a class="px-1" href="#"><img src="../assets/images/Blogs/p-pinterest.svg" alt=""></a>
+                <a class="px-1" href="#"><img src="../assets/images/Blogs/p-facebook.svg" alt="blogs-facebook"></i></a>
+                <a class="px-1" href="#"><img src="../assets/images/Blogs/p-twitter.svg" alt="blogs-twitter"></a>
+                <a class="px-1" href="#"><img src="../assets/images/Blogs/p-instagram.svg" alt="blogs-insts"></a>
+                <a class="px-1" href="#"><img src="../assets/images/Blogs/p-pinterest.svg" alt="blogs-pinterest"></a>
               </div>
             </div>
           </div>
@@ -231,60 +231,60 @@
                     <img
                       class="back"
                       src="../assets/images/Blogs/background.svg"
-                      alt=""
+                      alt="blogs-bg"
                     />
                     <img
                       class="logo"
                       src="../assets/images/Blogs/twitter.svg"
-                      alt=""
+                      alt="blogs-twitter"
                     />
                   </div>
                   <div class="icons">
                     <img
                       class="back"
                       src="../assets/images/Blogs/background.svg"
-                      alt=""
+                      alt="blogs-bg"
                     />
                     <img
                       class="logo"
                       src="../assets/images/Blogs/youtube.svg"
-                      alt=""
+                      alt="blogs-youtube"
                     />
                   </div>
                   <div class="icons">
                     <img
                       class="back"
                       src="../assets/images/Blogs/bg_blue.svg"
-                      alt=""
+                      alt="blogs-blue"
                     />
                     <img
                       class="logo"
                       src="../assets/images/Blogs/pinterest.svg"
-                      alt=""
+                      alt="blogs-pinetrest"
                     />
                   </div>
                   <div class="icons">
                     <img
                       class="back"
                       src="../assets/images/Blogs/background.svg"
-                      alt=""
+                      alt="blogs-bg"
                     />
                     <img
                       class="logo"
                       src="../assets/images/Blogs/instagram.svg"
-                      alt=""
+                      alt="blogs-insts"
                     />
                   </div>
                   <div class="icons">
                     <img
                       class="back"
                       src="../assets/images/Blogs/background.svg"
-                      alt=""
+                      alt="blogs-bg"
                     />
                     <img
                       class="logo"
                       src="../assets/images/Blogs/facebook.svg"
-                      alt=""
+                      alt="blogs-facebook"
                     />
                   </div>
                 </div>
@@ -303,14 +303,14 @@
           <div class="profiles mt-5">
             <div class="row">
               <div class="col-auto p-image">
-                <img src="../assets/images/Blogs/Ellipse.svg" alt="" />
+                <img src="../assets/images/Blogs/Ellipse.svg" alt="blogs-elipse" />
               </div>
               <div class="col p-info">
                 <div
                   class="name d-flex justify-content-between align-items-center"
                 >
                   <h2>Logan Wright</h2>
-                  <img src="../assets/images/Blogs/reply.svg" alt="" />
+                  <img src="../assets/images/Blogs/reply.svg" alt="blogs-reply" />
                 </div>
                 <p>
                     Excellent insights on mail-based SAP solutions! We’re exploring this to boost efficiency, thanks for the tips!
@@ -321,14 +321,14 @@
           <div class="profiles mt-5">
             <div class="row">
               <div class="col-auto p-image">
-                <img src="../assets/images/Blogs/Ellipse2.svg" alt="" />
+                <img src="../assets/images/Blogs/Ellipse2.svg" alt="blogs-ellipse2" />
               </div>
               <div class="col p-info">
                 <div
                   class="name d-flex justify-content-between align-items-center"
                 >
                   <h2>Victoria Bell</h2>
-                  <img src="../assets/images/Blogs/reply.svg" alt="" />
+                  <img src="../assets/images/Blogs/reply.svg" alt="blogs-reply" />
                 </div>
                 <p>
                     Informative read! Mail-based SAP approvals seem like a fantastic way to streamline business workflows.
@@ -339,14 +339,14 @@
           <div class="profiles mt-5">
             <div class="row">
               <div class="col-auto p-image">
-                <img src="../assets/images/Blogs/Ellipse3.svg" alt="" />
+                <img src="../assets/images/Blogs/Ellipse3.svg" alt="blogs-ellipse3" />
               </div>
               <div class="col p-info">
                 <div
                   class="name d-flex justify-content-between align-items-center"
                 >
                   <h2>Cameron Scott</h2>
-                  <img src="../assets/images/Blogs/reply.svg" alt="" />
+                  <img src="../assets/images/Blogs/reply.svg" alt="blogs-reply" />
                 </div>
                 <p>
                     Thanks for breaking down SAP mail-based approvals! This will help us improve our internal processes

@@ -41,11 +41,11 @@
   <?php include './common/NavigationBar.php';?>
 
   <div class="rect" style="padding-top: 70px;">
-      <img src="./assets/images/blogs/Rectangle 2599.svg"  alt="">
+      <img src="./assets/images/blogs/Rectangle 2599.svg"  alt="Nav-below-green-bg">
       <h2>Portfolio</h2>
       <p>
           Home 
-          <img class="less-than-symbol" src="./assets/images/blogs/less-than-symbol 1.svg" alt="">
+          <img class="less-than-symbol" src="./assets/images/blogs/less-than-symbol 1.svg" alt="green-bg-less-than-symbol">
           <span>Portfolio</span>
       </p>
     </div>
@@ -74,7 +74,7 @@
                 <img
                   class="img-fluid"
                   src="./assets/images/portfolio/digital.svg"
-                  alt=""
+                  alt="Digital-signature-image"
                 />
               </div>
             </div>
@@ -109,7 +109,7 @@
                 <img
                   class="img-fluid"
                   src="./assets/images/portfolio/mail.svg"
-                  alt=""
+                  alt="Mail-based-image"
                 />
               </div>
             </div>
@@ -144,7 +144,7 @@
                 <img
                   class="img-fluid"
                   src="./assets/images/portfolio/master data managment.svg"
-                  alt=""
+                  alt="MAster-data-image"
                 />
               </div>
             </div>
@@ -179,7 +179,7 @@
                 <img
                   class="img-fluid"
                   src="./assets/images/portfolio/p2p.svg"
-                  alt=""
+                  alt="p2p-image"
                 />
               </div>
             </div>
@@ -214,7 +214,7 @@
                 <img
                   class="img-fluid"
                   src="./assets/images/portfolio/warehouse.svg"
-                  alt=""
+                  alt="warehouse-image"
                 />
               </div>
             </div>
@@ -249,7 +249,7 @@
                 <img
                   class="img-fluid"
                   src="./assets/images/portfolio/rpa.svg"
-                  alt=""
+                  alt="rpa-image"
                 />
               </div>
             </div>
@@ -284,7 +284,7 @@
                 <img
                   class="img-fluid"
                   src="./assets/images/portfolio/account payble.svg"
-                  alt=""
+                  alt="asset-image"
                 />
               </div>
             </div>
@@ -319,7 +319,7 @@
                 <img
                   class="img-fluid"
                   src="./assets/images/portfolio/fleet.svg"
-                  alt=""
+                  alt="fleet-image"
                 />
               </div>
             </div>
@@ -354,7 +354,7 @@
                 <img
                   class="img-fluid"
                   src="./assets/images/portfolio/account payble.svg"
-                  alt=""
+                  alt="accounts-image"
                 />
               </div>
             </div>
@@ -388,7 +388,7 @@
                 <img
                   class="img-fluid"
                   src="./assets/images/portfolio/school rpa.svg"
-                  alt=""
+                  alt="erp-image"
                 />
               </div>
             </div>

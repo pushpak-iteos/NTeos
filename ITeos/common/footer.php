@@ -1,3 +1,4 @@
+<?php $ImagePath = "https://nteos.ca/"?>
 
     <div class="content mt-5 ">
         <footer class="pb-4">
@@ -37,11 +38,11 @@
                 <div class="single-box">
                   <h2 class="m-heading">Services</h2>
                   <ul class="sub-content mt-4">
-                    <li><a href="">Staffing</a></li>
-                    <li><a href="">Consulting</a></li>
-                    <li><a href="">UI / UX</a></li>
-                    <li><a href="">Quality Assurance</a></li>
-                    <li><a href="">Digital Marketing</a></li>
+                    <li><a href="../../Services/Staffing.php">Staffing</a></li>
+                    <li><a href="../../ContactUs.php">Consulting</a></li>
+                    <li><a href="../../Services/UI Design.php">UI / UX</a></li>
+                    <li><a href="../../Services/QualityAssurance.php">Quality Assurance</a></li>
+                    <li><a href="../../Services/Digital Marketing.php">Digital Marketing</a></li>
                   </ul>
                 </div>
               </div>
@@ -49,11 +50,11 @@
                 <div class="single-box">
                   <h2 class="m-heading">Quick links</h2>
                   <ul class="sub-content mt-4">
-                    <li><a href="">About us</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Site Map</a></li>
-                    <li><a href="">Privacy</a></li>
-                    <li><a href="">Terms and Services</a></li>
+                    <li><a href="../../AboutUs.php">About us</a></li>
+                    <li><a href="../../blogs.php">Blog</a></li>
+                    <li><a href="../../sitemap.php">Site Map</a></li>
+                    <li><a href="#Privacy">Privacy</a></li>
+                    <li><a href="#TermsAndServices">Terms and Services</a></li>
                   </ul>
                 </div>
               </div>

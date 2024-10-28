@@ -22,11 +22,11 @@
     
     <div class="AboutUs">
         <div class="rect" style="padding-top: 70px;">
-        <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Rectangle 2599.svg"  alt="">
+        <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Rectangle 2599.svg"  alt="Nav-below-green-bg">
         <h2>About Us</h2>
         <p>
             Home 
-            <img class="less-than-symbol" src="./assets/images/NavBar-ContactUs-Services-AboutUs/less-than-symbol 1.svg" alt="">
+            <img class="less-than-symbol" src="./assets/images/NavBar-ContactUs-Services-AboutUs/less-than-symbol 1.svg" alt="green-bg-less-than-symbol">
             <span>About Us</span>
         </p>
         </div>
@@ -49,27 +49,27 @@
                         </div>
                         <div class="features-container col-sm-12">
                             <div class="feature-item col-sm-12">
-                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify.svg" alt="">
+                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify.svg" alt="part1-verify-image">
                                 <span>Customized IT Solutions</span>
                             </div>
                             <div class="feature-item col-sm-12">
-                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify.svg" alt="">
+                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify.svg" alt="part1-verify-image">
                                 <span>Lifetime Support</span>
                             </div>
                             <div class="feature-item col-sm-12">
-                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify.svg" alt="">
+                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify.svg" alt="part1-verify-image">
                                 <span>Agile Staffing Solutions</span>
                             </div>
                             <div class="feature-item col-sm-12">
-                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify.svg" alt="">
+                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify.svg" alt="part1-verify-image">
                                 <span>Quality Assurance</span>
                             </div>
                             <div class="feature-item col-sm-12">
-                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify.svg" alt="">
+                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify.svg" alt="part1-verify-image">
                                 <span>Proven Experience</span>
                             </div>
                             <div class="feature-item col-sm-12">
-                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify.svg" alt="">
+                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify.svg" alt="part1-verify-image">
                                 <span>Success Consulting</span>
                             </div>
                         </div>
@@ -77,7 +77,7 @@
                
                     <div class="right col-lg-5">
                         <div class="image">
-                            <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Group 772473.png" alt="">
+                            <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Group 772473.png" alt="animation-image">
                         </div>
                     </div>
                     
@@ -113,11 +113,11 @@
                     <div class="row">
                         <div class="left col-lg-5">
                             <div class="background-image">
-                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Group 2048.svg" alt="">
-                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Blue Splash.svg" alt="">
+                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Group 2048.svg" alt="part3-green-splash">
+                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Blue Splash.svg" alt="part3-blue-splash">
                             </div>
                             <div class="images2">
-                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/1 1.svg" alt="" class="static-image">
+                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/1 1.svg" alt="part3-Glasses-girl" class="static-image">
                              </div>
                              
                         </div>
@@ -159,7 +159,7 @@
                     <div class="row">
                         <div class="left col-lg-4">
                             <div class="lefttable">
-                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/star (4) 1.svg" alt="">
+                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/star (4) 1.svg" alt="part5-white-start-imag">
                                 <h2 class="heading1">Core values</h2>
                                 <p class="left_para">We break down Barries so teams can focus on what matters-working together to create products their customers love</p>
                                 <br>
@@ -195,7 +195,7 @@
                                 <div class="title">
                                     <div class="row">
                                         <div class="p-mark col-lg-2">
-                                            <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify white.svg" alt="">
+                                            <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify white.svg" alt="part5-white-start-imag">
                                         </div>
                                         <div class="p-heading col-lg-10">
                                             <h2> Paternership with ITeos</h2>
@@ -210,7 +210,7 @@
                                 <div class="title">
                                     <div class="row">
                                         <div class="p-mark col-lg-2">
-                                            <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify white.svg" alt="">
+                                            <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify white.svg" alt="part5-white-start-imag">
                                         </div>
                                         <div class="p-heading col-lg-10">
                                             <h2>The Consulting Mastery</h2>
@@ -225,7 +225,7 @@
                                 <div class="title">
                                     <div class="row">
                                         <div class="p-mark col-lg-2">
-                                            <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify white.svg" alt="">
+                                            <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify white.svg" alt="part5-white-start-imag">
                                         </div>
                                         <div class="p-heading col-lg-10">
                                             <h2>Adaptible Startegies</h2>
@@ -247,7 +247,7 @@
                                     <div class="title">
                                         <div class="row">
                                             <div class="p-mark col-lg-2">
-                                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify white.svg" alt="">
+                                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify white.svg" alt="part5-white-start-imag">
                                             </div>
                                             <div class="p-heading col-lg-10">
                                                 <h2>Our Staffing Excellence</h2>
@@ -260,7 +260,7 @@
                                     <div class="title">
                                         <div class="row">
                                             <div class="p-mark col-lg-2">
-                                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify white.svg" alt="">
+                                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify white.svg" alt="part5-white-start-imag">
                                             </div>
                                             <div class="p-heading col-lg-10">
                                                 <h2>Team Collaboration</h2>
@@ -275,7 +275,7 @@
                                     <div class="title">
                                         <div class="row">
                                             <div class="p-mark col-lg-2">
-                                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify white.svg" alt="">
+                                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/verify white.svg" alt="part5-white-start-imag">
                                             </div>
                                             <div class="p-heading col-lg-10">
                                                 <h2>Commitment to Quality</h2>
@@ -356,7 +356,7 @@
                 </div>
                 <div class="row">
                     <div class="card col-lg-3 col-md-4 col-sm-12">
-                        <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/team members 2 (1).svg" alt="">
+                        <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/team members 2 (1).svg" alt="part6-guy-with-glasses">
                         <div class="info">
                             <h1>Puspendu G</h1>
                             <p>Co-founder</p>
@@ -370,7 +370,7 @@
                     </div>
                 
                     <div class="card col-lg-3 col-md-4 cold-sm-12">
-                        <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/team members 2 (1).svg" alt="">
+                        <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/team members 2 (1).svg" alt="part6-guy-with-glasses">
                         <div class="info">
                             <h1>Puspendu G</h1>
                             <p>Co-founder</p>
@@ -384,7 +384,7 @@
                     </div>
                 
                     <div class="card col-lg-3 col-md-4 cold-sm-12">
-                        <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/team members 2 (1).svg" alt="">
+                        <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/team members 2 (1).svg" alt="part6-guy-with-glasses">
                         <div class="info">
                             <h1>Puspendu G</h1>
                             <p>Co-founder</p>
@@ -418,25 +418,25 @@
                     <br><br>
     
                 <div class="profile-grid">
-                    <div class="profile"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="Profile 1"></div>
-                    <div class="profile"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="Profile 2"></div>
-                    <div class="profile"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="Profile 3"></div>
-                    <div class="profile"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="Profile 4"></div>
-                    <div class="profile"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="Profile 5"></div>
-                    <div class="profile"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="Profile 6"></div>
-                    <div class="profile"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="Profile 7"></div>
-                    <div class="profile"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="Profile 8"></div>
-                    <div class="profile"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="Profile 9"></div>
-                    <div class="profile"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="Profile 10"></div>
-                    <div class="profile" style="margin-left: 50px;"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="Profile 11"></div>
-                    <div class="profile"style="margin-left: 50px;"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="Profile 12"></div>
-                    <div class="profile"style="margin-left: 50px;"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="Profile 13"></div>
-                    <div class="profile"style="margin-left: 50px;"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="Profile 13"></div>
-                    <div class="profile"style="margin-left: 50px;"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="Profile 13"></div>
-                    <div class="profile"style="margin-left: 50px;"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="Profile 13"></div>
-                    <div class="profile"style="margin-left: 50px;"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="Profile 13"></div>
-                    <div class="profile"style="margin-left: 50px;"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="Profile 13"></div>
-                    <div class="profile "style="margin-left: 50px;"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="Profile 13"></div>
+                    <div class="profile"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="part7-Profile 1"></div>
+                    <div class="profile"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="part7-Profile 2"></div>
+                    <div class="profile"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="part7-Profile 3"></div>
+                    <div class="profile"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="part7-Profile 4"></div>
+                    <div class="profile"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="part7-Profile 5"></div>
+                    <div class="profile"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="part7-Profile 6"></div>
+                    <div class="profile"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="part7-Profile 7"></div>
+                    <div class="profile"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="part7-Profile 8"></div>
+                    <div class="profile"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="part7-Profile 9"></div>
+                    <div class="profile"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="part7-Profile 10"></div>
+                    <div class="profile" style="margin-left: 50px;"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="part7-Profile 11"></div>
+                    <div class="profile"style="margin-left: 50px;"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="part7-Profile 12"></div>
+                    <div class="profile"style="margin-left: 50px;"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="part7-Profile 13"></div>
+                    <div class="profile"style="margin-left: 50px;"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="part7-Profile 13"></div>
+                    <div class="profile"style="margin-left: 50px;"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="part7-Profile 13"></div>
+                    <div class="profile"style="margin-left: 50px;"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="part7-Profile 13"></div>
+                    <div class="profile"style="margin-left: 50px;"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="part7-Profile 13"></div>
+                    <div class="profile"style="margin-left: 50px;"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="part7-Profile 13"></div>
+                    <div class="profile "style="margin-left: 50px;"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ellipse 182.svg" alt="part7-Profile 13"></div>
                 </div>
                 
                     

@@ -40,11 +40,11 @@
 <body>
 <?php include './common/NavigationBar.php';?>
     <div class="rect" style="padding-top: 70px;">
-        <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Rectangle 2599.svg"  alt="">
+        <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Rectangle 2599.svg"  alt="green-bg-below-navbar">
         <h2>Site Map</h2>
         <p>
             Home 
-            <img class="less-than-symbol" src="./assets/images/NavBar-ContactUs-Services-AboutUs/less-than-symbol 1.svg" alt="">
+            <img class="less-than-symbol" src="./assets/images/NavBar-ContactUs-Services-AboutUs/less-than-symbol 1.svg" alt="green-less-than-sumbol">
             <span>Site Map</span>
         </p>
         </div>
@@ -69,7 +69,7 @@
                     <li><a href="./Services/Staffing.php">Staffing</a></li>
                     <li><a href="./Services/CXO Advisory.php">COX Advisory</a></li>
                     <li><a href="./Services/UI Design.php">UI/UX Design</a></li>
-                    <li><a href="./Services/Master_Data_Management.php">Master Data Management</a></li>
+                    <li><a href="./Services/Master Data Management.php">Master Data Management</a></li>
                     <li><a href="./Services/Digital Marketing.php">Digital Marketing</a></li>
                     <li><a href="./Services/MS Dynamics.php">MS Dynamics</a></li>
                     <li><a href="./Services/Application Development.php">Application Development</a></li>
@@ -78,7 +78,7 @@
                     <li><a href="./Services/Outsourcing.php">Outsourcing</a></li>
                     </ul>
                 </li>
-                <li><a href="/portfolio.php">Portfolio</a>
+                <li><a href="./portfolio.php">Portfolio</a>
                     <ul>
                             <li><a href="./ITeos/Portfolio/Digital_Signature.php">Digital Signature</a></li>
                             <li><a href="./ITeos/Portfolio/Mail-Based_Approval.php">Mail-Based Approval Process for SAP</a></li>
@@ -92,13 +92,13 @@
                             <li><a href="./ITeos/Portfolio/Services(Shared_Services_and_Consulting).php">School ERP</a></li>
                     </ul> 
                 </li>
-                <li><a href="/testimonials.php">Testimonials</a>
+                <li><a href="./testimonials.php">Testimonials</a>
                     <ul>
 
                     </ul>
             </li>
             <li>
-                    <a href="/blogs.php">Blogs</a>
+                    <a href="./blogs.php">Blogs</a>
                     <ul>
                         <li><a href="./ITeos/Blogs/Blogs.php">SAP COE</a></li>
                         <li><a href="./ITeos/Blogs/Blogs2.php">MDM</a></li>
@@ -110,6 +110,10 @@
                         <li><a href="./ITeos/Blogs/Blog8.php">Warehouse Management</a></li>
                         <li><a href="./ITeos/Blogs/Blog9.php">Asset_Management</a></li>
                     </ul>
+            </li>
+            <li>
+                    <a href="./ContactUs.php">Contact Us</a>
+                    
             </li>
            <li>
         </ul> 

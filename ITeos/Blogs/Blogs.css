@@ -65,12 +65,12 @@
     .rect h2 {
         padding-top: 10px;
         top: 70%;
-        font-size: 1.2rem; /* Smaller font for mobile devices */
+        font-size: 1rem; /* Smaller font for mobile devices */
     }
 
     .rect p {
         top: calc(50% + 30px);
-        font-size: 0.8rem; /* Smaller text for mobile */
+        font-size: 0.7rem; /* Smaller text for mobile */
     }
 }
 
@@ -99,6 +99,10 @@
     font-weight: 700;
     font-family: "Ubuntu", sans-serif;
     color: #828282;
+}
+
+.container .m-content .row .left .typing_img{
+    width: 90%;
 }
 
 .input-box{
@@ -235,10 +239,7 @@
 
 .tags{
     border: 1px solid #e0e0e0;
-    padding-right: 10px;
-    /* font-size: 13.75px;
-    color: #4f4f4f;
-    font-weight: 400; */
+    padding-left: 5px; 
 }
 
 .card .row p{
@@ -327,11 +328,19 @@
 }
 .part4 .card {
     margin-bottom: 50px;
-    max-width: 390px;
+    max-width: 380px;
     height: 380px;
     padding: 0;
     position: relative;
     overflow: hidden; /* Ensure content doesn't overflow */
+}
+
+@media (max-width: 480px){
+    .part4 .card {
+        
+        max-width: 320px;
+        
+    }
 }
 
 .part4 .c-link {
@@ -414,4 +423,31 @@
     left: 20px; /* Adjust based on how much space you want from the left */
     width: 50px; /* Set desired size for the overlay image */
     height: auto; /* Maintain aspect ratio */
+}
+
+
+.tags-share-container {
+    border: 1px solid #ddd;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tags-share-container .m-tags,
+.tags-share-container .share {
+    display: flex;
+    align-items: center;
+}
+.tags-share-container .m-tags p,
+.tags-share-container .share p {
+    margin: 0;
+    font-weight: bold;
+}
+.tags-share-container .m-tags span {
+    margin-left: 5px;
+    color: #555;
+}
+.tags-share-container .social-icons a {
+    margin: 0 5px;
+    color: #555;
 }

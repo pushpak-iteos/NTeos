@@ -1,3 +1,6 @@
+<?php $ImagePath = "https://nteos.ca/"?>
+
+
 <div class="content mt-5 ">
       <footer class="pb-4">
         <div class="container">
@@ -5,8 +8,8 @@
             <div class="col-lg-4 col-md-6 col-sm-12">
               <div class="single-box">
                 <div class="logo">
-                  <img src="/NTeos/assets/images/NTeos.svg" alt="NTeos_Logo" />
-                  <img src="/NTeos/assets/images/NTeos_name.svg" alt="" />
+                  <img src="<?php echo $ImagePath?>assets/images/NTeos.svg" alt="NTeos_Logo" />
+                  <img src="<?php echo $ImagePath?>assets/images/NTeos_name.svg" alt="" />
                 </div>
                 <div class="data">
                   <p class="d mt-3">
@@ -15,11 +18,11 @@
                     services to empower businesses of all sizes.
                   </p>
                   <div class="card-area">
-                        <img src="/NTeos/assets/images/facebook.svg" alt="Facebook">
+                        <img src="<?php echo $ImagePath?>assets/images/facebook.svg" alt="Facebook">
                         <a class="social" href="#facebook"><p>Facebook</p></a>
-                        <img src="/NTeos/assets/images/twitter.svg" alt="Twitter">
+                        <img src="<?php echo $ImagePath?>assets/images/twitter.svg" alt="Twitter">
                         <a class="social" href="#twitter"><p>Twitter</p></a>
-                        <img src="/NTeos/assets/images/instagram.svg" alt="Instagram">
+                        <img src="<?php echo $ImagePath?>assets/images/instagram.svg" alt="Instagram">
                         <a class="social" href="#instagram"><p>Instagram</p></a>
                   </div>
                 </div>
@@ -30,7 +33,7 @@
                 <h2 class="m-heading">Services</h2>
                 <ul class="sub-content mt-4">
                   <li><a href="./Services/Staffing.php">Staffing</a></li>
-                  <li><a href="#Consulting">Consulting</a></li>
+                  <li><a href="./ContactUs.php">Consulting</a></li>
                   <li><a href="./Services/UI Design.php">UI / UX</a></li>
                   <li><a href="./Services/QualityAssurance.php">Quality Assurance</a></li>
                   <li><a href="./Services/Digital Marketing.php">Digital Marketing</a></li>
@@ -150,6 +153,7 @@
   footer .single-box .data .d{
     font-size: 16px;
     color: rgb(164, 164, 164);;
+    width: 95%;
   }
   
   footer .single-box h3 {

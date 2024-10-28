@@ -16,6 +16,14 @@ use PHPMailer\PHPMailer\Exception;
 
 //Create an instance; passing `true` enables exceptions
 $mail = new PHPMailer(true);
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+
+    $name = htmlspecialchars($_POST['name']);
+    $email = htmlspecialchars($_POST['email']);
+    $phone = htmlspecialchars($_POST['phone']);
+    $subject = htmlspecialchars($_POST['subject']);
+    $message = htmlspecialchars($_POST['message']);
 
 try {
     //Server settings
@@ -31,8 +39,8 @@ try {
     //Recipients
     $mail->setFrom('info@nteos.ca', 'Mailer');
     // $mail->addAddress('joe@example.net', 'Joe User');     
-    $mail->addAddress('kamblepushpak27@gmail.com');               
-    $mail->addReplyTo('kamblepushpak27@gmail.com', 'Pushpak');
+    $mail->addAddress($email);               
+    $mail->addReplyTo($email, $name);
     // $mail->addCC('cc@example.com');
     // $mail->addBCC('bcc@example.com');
 
@@ -41,12 +49,41 @@ try {
 
     //Content
     $mail->isHTML(true);                                  //Set email format to HTML
-    $mail->Subject = 'Here is the subject';
-    $mail->Body    = 'This is the HTML message body <b>in bold!</b>';
-    $mail->AltBody = 'This is the body in plain text for non-HTML mail clients';
+    $mail->Subject = "New message from $name regarding: $subject";
+    $mail->Body    = "<h2>You have received a new message!</h2>
+    <p><strong>Name:</strong> $name</p>
+    <p><strong>Email:</strong> $email</p>
+    <p><strong>Phone:</strong> $phone</p>
+    <p><strong>Subject:</strong> $subject</p>
+    <p><strong>Message:</strong></p>
+    <p>$message</p>
+";
+    $mail->AltBody = 'You have received a new message!
+    
+    Name: $name
+    Email: $email
+    Phone: $phone
+    Subject: $subject
+    Message:
+    $message';
 
     $mail->send();
-    echo 'Message has been sent';
+    // echo 'Message has been sent';
+    ?>
+    <script language="javascript" type="text/javascript">
+    alert('Thank you for the message. We will contact you shortly.');
+    window.location = 'ContactUs.php';
+  </script>
+  <?php
+    
 } catch (Exception $e) {
-    echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    // echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+    ?>
+    <script language="javascript" type="text/javascript">
+    alert('Server Error! Please try again later.');
+    window.location = 'ContactUs.php';
+  </script>
+  <?php
 }
+}
+?>

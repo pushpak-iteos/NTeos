@@ -17,7 +17,7 @@
     height: auto; /* Maintain aspect ratio */
 }
 
-.rect h2 {
+.rect h2{
     position: absolute; /* Keep h2 absolutely positioned */
     top: 60%;
     left: 100px;
@@ -41,6 +41,38 @@
 .rect p span {
     color: #003566; /* Teal color for the span */
 }
+
+@media (max-width: 768px) {
+    
+    
+    .rect h2 {
+        padding-top: 10px;
+        top: 60%;
+        font-size: 1rem;
+    }
+
+    .rect p {
+        top: calc(50% + 30px);
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    
+
+    .rect h2 {
+        padding-top: 10px;
+        top: 70%;
+        font-size: 1rem; /* Smaller font for mobile devices */
+    }
+
+    .rect p {
+        top: calc(50% + 30px);
+        font-size: 0.7rem; /* Smaller text for mobile */
+    }
+}
+
 .left .row{
    padding-top: 10px;
    border-top: 1px solid #E7E8EB;
@@ -63,26 +95,70 @@
     font-family: "Poppins", sans-serif;
     font-weight: 400;
 }
-.m-heading{
+.m-heading {
     font-family: "Ubuntu", sans-serif;
     font-size: 40px;
     font-weight: 700;
     color: #37393f;
 }
 
-.m-content p{
+.m-content p {
     font-size: 18px;
     font-weight: 400;
     color: #828282;
     font-family: "Poppins", sans-serif;
 }
 
-.m-content h2{
+.m-content h2 {
     font-size: 24px;
     font-weight: 500;
     font-family: "Ubuntu", sans-serif;
     color: #282C4B;
 }
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .m-heading {
+        font-size: 35px;
+    }
+    .m-content h2 {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 992px) {
+    .m-heading {
+        font-size: 30px;
+    }
+    .m-content p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .m-heading {
+        font-size: 28px;
+    }
+    .m-content h2 {
+        font-size: 20px;
+    }
+    .m-content p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    .m-heading {
+        font-size: 24px;
+    }
+    .m-content h2 {
+        font-size: 18px;
+    }
+    .m-content p {
+        font-size: 14px;
+    }
+}
+
 
 
 .right .ContactUsBox{
@@ -119,4 +195,41 @@
     background-color: #20cfc5;
     border: 1px solid #20cfc5;
     border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    
+
+    .right .ContactUsBox h4 {
+        font-size: 20px; /* Smaller font for smaller screens */
+    }
+
+    .right .ContactUsBox p {
+        font-size: 14px; /* Smaller font for smaller screens */
+    }
+
+    .right .ContactUsBox button {
+        font-size: 18px; /* Smaller button font */
+    }
+}
+
+@media (max-width: 480px) {
+    .right .ContactUsBox{
+    
+        height: 431px;
+        width: auto;
+       
+    }
+    .right .ContactUsBox h4 {
+        font-size: 18px; /* Further reduce font size */
+    }
+
+    .right .ContactUsBox p {
+        font-size: 12px; /* Further reduce font size */
+    }
+
+    .right .ContactUsBox button {
+        font-size: 16px; /* Further reduce button font */
+        height: 48px; /* Slightly smaller button height */
+    }
 }

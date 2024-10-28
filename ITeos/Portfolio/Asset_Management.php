@@ -35,11 +35,11 @@
     
     </div>
     <div class="rect" style="padding-top: 70px;">
-        <img src="../assets/images/Blue-Background.svg"  alt="">
+        <img src="../assets/images/Blue-Background.svg"  alt="Nav-below-blue-bg">
         <h2>Asset Management </h2>
         <p>
            Our Service 
-          <img class="less-than-symbol" src="../assets/images/less-than-symbol 2.svg" alt="">
+          <img class="less-than-symbol" src="../assets/images/less-than-symbol 2.svg" alt="blue-bg-less-than-symbol">
           <span>Detail Page</span>
         </p>
     </div>
@@ -50,7 +50,7 @@
         </h2>
         <div class="row mt-4">
             <div class="left col-lg-8">
-                <img class="img-fluid" src="../assets/images/Portfolio/Photo (49).svg" alt="">
+                <img class="img-fluid" src="../assets/images/Portfolio/Photo (49).svg" alt="assest-imga1">
                 <div class="row text-center mt-5" >
                     <div class="left col-lg-4" >
                         <h3>Clients</h3>

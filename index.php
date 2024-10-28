@@ -66,7 +66,7 @@
                       <h1 class="text" id="text_second">Measurable Results</h1>
                       <h1 class="text" id="text_third">Delivering Excellence</h1>  
                   </div>
-                  <img class="line img-fluid" src="./assets/images/Line.svg" alt="">
+                  <img class="line img-fluid" src="./assets/images/Line.svg" alt="index-line">
                 </div>
                 <div class="tex " style="max-width: 600px;">
                   <p class="m-content ">
@@ -81,12 +81,12 @@
                 <div class="right position-relative ">
                   <div class="second_part">
                       <!-- <img class="img-fluid main-image" src="assets/images/GIF animations.png" alt="GIF Animation"> -->
-                    <img class="img-fluid overlay-image" id="i-first" src="./assets/images/photo1.png" alt="">
-                    <img class="img-fluid overlay-image" id="i-second" src="./assets/images/keyboards.png" alt="">
-                    <img class="img-fluid overlay-image" id="i-third" src="./assets/images/Group 772453.png" alt="">
-                    <img class="img-fluid overlay-image" id="i-fourth" src="./assets/images/photo2.png" alt="">
-                    <img class="img-fluid overlay-image" id="i-fifth" src="./assets/images/80+.png" alt="">
-                    <img class="img-fluid overlay-image" id="i-sixth" src="./assets/images/30+.png" alt="">
+                    <img class="img-fluid overlay-image" id="i-first" src="./assets/images/photo1.png" alt="index-hover-1">
+                    <img class="img-fluid overlay-image" id="i-second" src="./assets/images/keyboards.png" alt="index-hover-2">
+                    <img class="img-fluid overlay-image" id="i-third" src="./assets/images/Group 772453.png" alt="index-hover-3">
+                    <img class="img-fluid overlay-image" id="i-fourth" src="./assets/images/photo2.png" alt="index-hover-4">
+                    <img class="img-fluid overlay-image" id="i-fifth" src="./assets/images/80+.png" alt="index-hover-5">
+                    <img class="img-fluid overlay-image" id="i-sixth" src="./assets/images/30+.png" alt="index-hover-6">
                     </div>
                   </div>
                 </div>
@@ -112,8 +112,8 @@
                     <div class="right">
                       <div class="logo fs-6 fw-bold">
                         <a class="logo-2 px-5">
-                        <img src="./assets/images/small dot-1.svg" alt="">
-                        <img src="./assets/images/small dot-2.svg" alt="">
+                        <img src="./assets/images/small dot-1.svg" alt="index-logo-dot1">
+                        <img src="./assets/images/small dot-2.svg" alt="index-logo-dot2">
                           About Company
                         </a>
                       </div>
@@ -165,8 +165,8 @@
               <div class="right mt-3 col-sm-12 col-md-12 col-lg-7">
                 <div class="logo partnership fs-6 fw-bold">
                   <a class="logo-2 px-5">
-                  <img src="./assets/images/small dot-1.svg" alt="">
-                  <img src="./assets/images/small dot-2.svg" alt="">
+                  <img src="./assets/images/small dot-1.svg" alt="index-logo-dot3">
+                  <img src="./assets/images/small dot-2.svg" alt="index-logo-dot4">
                     Partnership for Growth
                   </a>
                 </div>
@@ -196,10 +196,10 @@
                     <div class="rectangle_first"></div>
                     <div class="rectangle_second"></div>
                     <div class="rectangle_third">
-                      <img class="img-fluid" src="assets/images/Rectangle 1.svg" alt="" />
+                      <img class="img-fluid" src="assets/images/Rectangle 1.svg" alt="index-rectangle-1" />
                     </div>
                     <div  class="rectangle_fourth">
-                      <img class="img-fluid" src="assets/images/ratings.png" alt="" />
+                      <img class="img-fluid" src="assets/images/ratings.png" alt="index-rectangle-2" />
                     </div>
                   </div>
                 <!-- </div> -->
@@ -210,8 +210,8 @@
           <div class="part4">
             <div class="container logo fs-6 fw-bold text-center">
               <a class="logo-2">
-              <img src="./assets/images/small dot-1.svg" alt="">
-              <img src="./assets/images/small dot-2.svg" alt=""> <span>
+              <img src="./assets/images/small dot-1.svg" alt="index-logo-dot4">
+              <img src="./assets/images/small dot-2.svg" alt="index-logo-dot5"> <span>
               OUR
               SERVICES
               </span>
@@ -236,7 +236,7 @@
                       <div class="card" style="width: 100%;">
                         <div class="card-body">
                           <div class="card-heading text-center mt-4">
-                            <img class="flip-image" src="assets/images/SAP COE.svg" alt="">
+                            <img class="flip-image" src="assets/images/SAP COE.svg" alt="SAP-COE">
                             <h5 class="card-title mt-2 ">SAP COE</h5>
                           </div>
                           <div class="card-middle mx-4 text-center">
@@ -245,7 +245,7 @@
                           </div>
                           <div class="container lower mt-4">
                             <div class="row text-center">
-                              <a href="#"><img src="assets/images/learn-more.svg" alt=""></a>
+                              <a href="#"><img src="assets/images/learn-more.svg" alt="learn-more-image"></a>
                             </div>
                           </div>
                         </div>
@@ -259,7 +259,7 @@
                       <div class="card" style="width: 100%;">
                         <div class="card-body">
                           <div class="card-heading text-center mt-4">
-                            <img class="flip-image" src="assets/images/hand-red.png" alt="">
+                            <img class="flip-image" src="assets/images/hand-red.png" alt="index-hand-red">
                             <h5 class="card-title mt-2">Quality Assurance</h5>
                           </div>
                           <div class="card-middle mx-4 text-center">
@@ -268,7 +268,7 @@
                           </div>
                           <div class="container lower mt-4">
                             <div class="row text-center">
-                              <a href="#"><img src="assets/images/learn-more.svg" alt=""></a>
+                              <a href="#"><img src="assets/images/learn-more.svg" alt="learn-more-image"></a>
                             </div>
                           </div>
                         </div>
@@ -282,7 +282,7 @@
                       <div class="card" style="width: 100%;">
                         <div class="card-body">
                           <div class="card-heading text-center mt-4">
-                            <img class="flip-image" src="assets/images/peoples.png" alt="">
+                            <img class="flip-image" src="assets/images/peoples.png" alt="index-people-red">
                             <h5 class="card-title mt-2">Staffing</h5>
                           </div>
                           <div class="card-middle mx-4 text-center">
@@ -291,7 +291,7 @@
                           </div>
                           <div class="container lower mt-4">
                             <div class="row text-center">
-                              <a href="#"><img src="assets/images/learn-more.svg" alt=""></a>
+                              <a href="#"><img src="assets/images/learn-more.svg" alt="learn-more-image"></a>
                             </div>
                           </div>
                         </div>
@@ -305,7 +305,7 @@
                       <div class="card" style="width: 100%;">
                         <div class="card-body">
                           <div class="card-heading text-center mt-4">
-                            <img class="flip-image" src="assets/images/SAP COE.svg" alt="">
+                            <img class="flip-image" src="assets/images/SAP COE.svg" alt="cxo-adivisory">
                             <h5 class="card-title mt-2">CXO Advisory</h5>
                           </div>
                           <div class="card-middle mx-4 text-center">
@@ -314,7 +314,7 @@
                           </div>
                           <div class="container lower mt-4">
                             <div class="row text-center">
-                              <a href="#"><img src="assets/images/learn-more.svg" alt=""></a>
+                              <a href="#"><img src="assets/images/learn-more.svg" alt="learn-more-image"></a>
                             </div>
                           </div>
                         </div>
@@ -328,7 +328,7 @@
                       <div class="card" style="width: 100%;">
                         <div class="card-body">
                           <div class="card-heading text-center mt-4">
-                            <img class="flip-image" src="assets/images/SAP COE.s" alt="">
+                            <img class="flip-image" src="assets/images/SAP COE.svg" alt="sap-coe2">
                             <h5 class="card-title mt-2">SAP COE</h5>
                           </div>
                           <div class="card-middle mx-4 text-center">
@@ -337,7 +337,7 @@
                           </div>
                           <div class="container lower mt-4">
                             <div class="row text-center">
-                              <a href="#"><img src="assets/images/learn-more.svg" alt=""></a>
+                              <a href="#"><img src="assets/images/learn-more.svg" alt="learn-more-image"></a>
                             </div>
                           </div>
                         </div>
@@ -351,7 +351,7 @@
                       <div class="card" style="width: 100%;">
                         <div class="card-body">
                           <div class="card-heading text-center mt-4">
-                            <img class="flip-image" src="./assets/images/SAP COE.svg" alt="">
+                            <img class="flip-image" src="./assets/images/SAP COE.svg" alt="staffing-2">
                             <h5 class="card-title mt-2">Staffing</h5>
                           </div>
                           <div class="card-middle mx-4 text-center">
@@ -360,7 +360,7 @@
                           </div>
                           <div class="container lower mt-4">
                             <div class="row text-center">
-                              <a href="#"><img src="assets/images/learn-more.svg" alt=""></a>
+                              <a href="#"><img src="assets/images/learn-more.svg" alt="learn-more-image"></a>
                             </div>
                           </div>
                         </div>
@@ -388,7 +388,7 @@
             </div>
             <div class="left-mid mt-3 text-center">
                     <a href="./Service.php">See All</a>
-                    <img src="assets/images/arrow.svg" alt="" />
+                    <img src="assets/images/arrow.svg" alt="arrow" />
                   </div>
             </div>
         </div>
@@ -432,7 +432,7 @@
                         <div class="rectangle_first"></div>
                       <!-- </div> -->
                       <div class="image">
-                        <img class="img-fluid" src="assets/images/meeting.svg" alt="" />
+                        <img class="img-fluid" src="assets/images/meeting.svg" alt="index-meeting-image" />
                       </div>
                     </div>
                   </div>
@@ -440,8 +440,8 @@
                 <div class="right col-lg-7 col-md-12 col-sm-12 ">
                   <div class="logo fs-6 fw-bold">
                     <a class="logo-2 px-5">
-                    <img src="./assets/images/small dot-1.svg" alt="">
-                    <img src="./assets/images/small dot-2.svg" alt="">
+                    <img src="./assets/images/small dot-1.svg" alt="index-logo-dot6">
+                    <img src="./assets/images/small dot-2.svg" alt="index-logo-dot7">
                       OUR FEATURES
                     </a>
                   </div>
@@ -597,18 +597,18 @@
               </div>
               <div class="add_logo">
                 <div class="logos">
-                  <img src="assets/images/hamilton.svg" alt="" />
-                  <img src="assets/images/iac.svg" alt="" />
-                  <img src="assets/images/tata.svg" alt="" />
-                  <img src="assets/images/havels.svg" alt="" />
-                  <img src="assets/images/bridgestone.svg" alt="" />
-                  <img src="assets/images/wipro.svg" alt="" />
-                  <img src="assets/images/hamilton.svg" alt="" />
-                  <img src="assets/images/iac.svg" alt="" />
-                  <img src="assets/images/tata.svg" alt="" />
-                  <img src="assets/images/havels.svg" alt="" />
-                  <img src="assets/images/bridgestone.svg" alt="" />
-                  <img src="assets/images/wipro.svg" alt="" />
+                  <img src="assets/images/hamilton.svg" alt="hamilton-logo" />
+                  <img src="assets/images/iac.svg" alt="iac-logo" />
+                  <img src="assets/images/tata.svg" alt="tata-logo" />
+                  <img src="assets/images/havels.svg" alt="havels-logo" />
+                  <img src="assets/images/bridgestone.svg" alt="bridgestone-logo" />
+                  <img src="assets/images/wipro.svg" alt="wipro-logo" />
+                  <img src="assets/images/hamilton.svg" alt="hamilton-logo" />
+                  <img src="assets/images/iac.svg" alt="iac-logo" />
+                  <img src="assets/images/tata.svg" alt="tata-logo" />
+                  <img src="assets/images/havels.svg" alt="havels-logo" />
+                  <img src="assets/images/bridgestone.svg" alt="bridgestone-logo" />
+                  <img src="assets/images/wipro.svg" alt="wipro-logo" />
                 </div>
               </div>
             </div>
@@ -619,8 +619,8 @@
                 <div class="left col-sm-12 col-lg-4 col-md-6 ps-4 mt-5">
                   <div class="logo fs-6 fw-bold">
                     <a class="logo-2 px-5">
-                      <img src="./assets/images/small dot-1.svg" alt="">
-                      <img src="./assets/images/small dot-2.svg" alt="">
+                      <img src="./assets/images/small dot-1.svg" alt="index-logo-dot8">
+                      <img src="./assets/images/small dot-2.svg" alt="index-logo-dot9">
                       TESTIMONIALS
                     </a>
                   </div>
@@ -633,7 +633,7 @@
                   </p>
                   <div class="left-mid">
                     <a href="./testimonials.php">See All</a>
-                    <img src="assets/images/arrow.svg" alt="" />
+                    <img src="assets/images/arrow.svg" alt="arrow" />
                   </div>
                   <div class="left-bottom">
                     <a href="./ContactUs.php"><button type="button" class="btn btn-success mt-5">
@@ -646,7 +646,7 @@
                     <div class="col-lg-6 col-md-12 mt-5">
                       <div class="card" onmouseover="changeImage(this)" onmouseout="resetImage(this)">
                           <div class="card-body">
-                              <img class="dynamic-image" src="assets/images/comma.png" alt="" />
+                              <img class="dynamic-image" src="assets/images/comma.png" alt="index-comma-image" />
 
                               <p class="card-text">
                                   NTeos helped me with digital signature implementation, ensuring secure transactions and streamlined operations. Their exceptional service truly transformed our workflow and efficiency.
@@ -654,7 +654,7 @@
                               <div class="m-profile">
                                   <div class="row">
                                       <div class="p-img col-lg-2">
-                                          <img src="assets/images/john.svg" alt="" />
+                                          <img src="assets/images/john.svg" alt="index-john" />
                                       </div>
                                       <div class="p-data col-lg-9">
                                           <div class="name fw-bold">
@@ -672,7 +672,7 @@
                     <div class="col-lg-6 col-md-12">
                       <div class="card" onmouseover="changeImage(this)" onmouseout="resetImage(this)">
                         <div class="card-body">
-                          <img class="dynamic-image" src="assets/images/comma.png" alt="" />
+                          <img class="dynamic-image" src="assets/images/comma.png" alt="index-comma-image" />
 
                           <p class="card-text">
                             NTeos assisted me with master data management,
@@ -683,7 +683,7 @@
                           <div class="m-profile">
                             <div class="row">
                               <div class="p-img col-lg-2">
-                                <img src="assets/images/sara.svg" alt="" />
+                                <img src="assets/images/sara.svg" alt="index-sara" />
                               </div>
                               <div class="p-data col-lg-9">
                                 <div class="name fw-bold">
@@ -703,7 +703,7 @@
                     <div class="col-lg-6 col-md-12">
                       <div class="card" onmouseover="changeImage(this)" onmouseout="resetImage(this)">
                         <div class="card-body">
-                          <img class="dynamic-image" src="assets/images/comma.png" alt="" />
+                          <img class="dynamic-image" src="assets/images/comma.png" alt="index-comma-image" />
 
                           <p class="card-text">
                             NTeos supported me in establishing a mail-based
@@ -714,7 +714,7 @@
                           <div class="m-profile">
                             <div class="row">
                               <div class="p-img col-lg-2">
-                                <img src="assets/images/mark.svg" alt="" />
+                                <img src="assets/images/mark.svg" alt="index-mark" />
                               </div>
                               <div class="p-data col-lg-9">
                                 <div class="name fw-bold">
@@ -734,7 +734,7 @@
                     <div class="col-lg-6 col-md-12">
                       <div class="card" onmouseover="changeImage(this)" onmouseout="resetImage(this)">
                         <div class="card-body">
-                          <img class="dynamic-image" src="assets/images/comma.png" alt="" />
+                          <img class="dynamic-image" src="assets/images/comma.png" alt="index-comma-image" />
 
                           <p class="card-text">
                             NTeos provided invaluable CXO advisory services,
@@ -745,7 +745,7 @@
                           <div class="m-profile">
                             <div class="row">
                               <div class="p-img col-lg-2">
-                                <img src="assets/images/emily.svg" alt="" />
+                                <img src="assets/images/emily.svg" alt="index-emily" />
                               </div>
                               <div class="p-data col-lg-9">
                                 <div class="name fw-bold">
@@ -776,8 +776,8 @@
               <div class="container text-center">
                 <div class="logo fs-6 fw-bold">
                   <a class="logo-2 px-5">
-                  <img src="./assets/images/small dot-1.svg" alt="">
-                  <img src="./assets/images/small dot-2.svg" alt="">
+                  <img src="./assets/images/small dot-1.svg" alt="index-logo-dot10">
+                  <img src="./assets/images/small dot-2.svg" alt="index-logo-dot11">
                     FROM BLOGS
                   </a>
                 </div>
@@ -857,7 +857,7 @@
             </div>
             <div class="end text-center mt-5">
               <a href="./blogs.php">See All</a>
-              <img src="assets/images/arrow.svg" alt="" />
+              <img src="assets/images/arrow.svg" alt="arrow" />
             </div>
           </div>
         </div>

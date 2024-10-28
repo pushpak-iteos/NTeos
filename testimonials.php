@@ -43,11 +43,11 @@
 <?php include './common/NavigationBar.php';?>
 
     <div class="rect" style="padding-top: 70px;">
-      <img src="./assets/images/blogs/Rectangle 2599.svg"  alt="">
+      <img src="./assets/images/blogs/Rectangle 2599.svg"  alt="green-bg-below-navbar">
       <h2>Testimonials</h2>
       <p>
           Home 
-          <img class="less-than-symbol" src="./assets/images/blogs/less-than-symbol 1.svg" alt="">
+          <img class="less-than-symbol" src="./assets/images/blogs/less-than-symbol 1.svg" alt="green-less-than-sumbol">
           <span>Testimonials</span>
       </p>
     </div>
@@ -70,7 +70,7 @@
                                 <div class="header">
                                     <div class="row">
                                         <div class="h-image col-lg-2  text-center">
-                                            <img src="./assets/images/testimonials/john.svg" alt="">
+                                            <img src="./assets/images/testimonials/john.svg" alt="testimonials-john">
                                         </div>
                                         <div class="h-profile col-lg-8">
                                             <h3 class="p-name">John Smith</h3>
@@ -79,7 +79,7 @@
                                     </div>
                                 </div>
                                 <div class="content px-5">
-                                    <img src="./assets/images/testimonials/yellow mark.svg" alt="">
+                                    <img src="./assets/images/testimonials/yellow mark.svg" alt="testimonails-yellow-mark">
                                     <p>NTeos helped me with digital signature implementation, ensuring 
                                         secure transactions and streamlined operations. Their exceptional
                                          service truly transformed our workflow and efficiency.</p>
@@ -94,7 +94,7 @@
                                 <div class="header">
                                     <div class="row">
                                         <div class="h-image col-lg-2  text-center">
-                                            <img src="./assets/images/testimonials/jessica.svg" alt="">
+                                            <img src="./assets/images/testimonials/jessica.svg" alt="testimonial-jessica">
                                         </div>
                                         <div class="h-profile col-lg-8">
                                             <h3 class="p-name">Sara Johnson</h3>
@@ -103,7 +103,7 @@
                                     </div>
                                 </div>
                                 <div class="content px-5">
-                                    <img src="./assets/images/testimonials/yellow mark.svg" alt="">
+                                    <img src="./assets/images/testimonials/yellow mark.svg" alt="testimonails-yellow-mark">
                                     <p>NTeos assisted me with master data managment, 
                                         optimizing our processes and enhancing data accuracy. 
                                         Their expertise significantly imporved our decision-making capabilities.</p>
@@ -117,7 +117,7 @@
                                 <div class="header">
                                     <div class="row">
                                         <div class="h-image col-lg-2  text-center">
-                                            <img src="./assets/images/testimonials/mark.svg" alt="">
+                                            <img src="./assets/images/testimonials/mark.svg" alt="testimonial-mark2">
                                         </div>
                                         <div class="h-profile col-lg-8">
                                             <h3 class="p-name">Mark Taylor</h3>
@@ -126,7 +126,7 @@
                                     </div>
                                 </div>
                                 <div class="content px-5">
-                                    <img src="./assets/images/testimonials/yellow mark.svg" alt="">
+                                    <img src="./assets/images/testimonials/yellow mark.svg" alt="testimonails-yellow-mark">
                                     <p>Their dedication and excellent service made our automated approval process seamless and remarkably efficient. NTeos supported me in establishing a mail-based approval system.</p>
                                 </div>
                             </div>
@@ -138,7 +138,7 @@
                                 <div class="header">
                                     <div class="row">
                                         <div class="h-image col-lg-2  text-center">
-                                            <img src="./assets/images/testimonials/Emily.svg" alt="">
+                                            <img src="./assets/images/testimonials/Emily.svg" alt="testimonial-emily">
                                         </div>
                                         <div class="h-profile col-lg-8">
                                             <h3 class="p-name">Emily Davis</h3>
@@ -147,7 +147,7 @@
                                     </div>
                                 </div>
                                 <div class="content px-5">
-                                    <img src="./assets/images/testimonials/yellow mark.svg" alt="">
+                                    <img src="./assets/images/testimonials/yellow mark.svg" alt="testimonails-yellow-mark">
                                     <p>NTeos provided invaluable CXO advisory services, delivering strategic insights that elevated our business performance and guided us toward sustainable growth and success.</p>
                                 </div>
                             </div>
@@ -159,7 +159,7 @@
                                 <div class="header">
                                     <div class="row">
                                         <div class="h-image col-lg-2  text-center">
-                                            <img src="./assets/images/testimonials/jessica.svg" alt="">
+                                            <img src="./assets/images/testimonials/jessica.svg" alt="testimonial-jessica2">
                                         </div>
                                         <div class="h-profile col-lg-8">
                                             <h3 class="p-name">Sarah Ann</h3>
@@ -168,7 +168,7 @@
                                     </div>
                                 </div>
                                 <div class="content px-5">
-                                    <img src="./assets/images/testimonials/yellow mark.svg" alt="">
+                                    <img src="./assets/images/testimonials/yellow mark.svg" alt="testimonails-yellow-mark">
                                     <p>Working with Nihar on our UI/UX design transformed our user experience. Their insights and creativity led to a significant increase in user engagement and satisfaction. </p>
                                 </div>
                             </div>
@@ -180,7 +180,7 @@
                                 <div class="header">
                                     <div class="row">
                                         <div class="h-image col-lg-2  text-center">
-                                            <img src="./assets/images/testimonials/john.svg" alt="">
+                                            <img src="./assets/images/testimonials/john.svg" alt="testimonial-james">
                                         </div>
                                         <div class="h-profile col-lg-8">
                                             <h3 class="p-name">James Carter</h3>
@@ -189,7 +189,7 @@
                                     </div>
                                 </div>
                                 <div class="content px-5">
-                                    <img src="./assets/images/testimonials/yellow mark.svg" alt="">
+                                    <img src="./assets/images/testimonials/yellow mark.svg" alt="testimonails-yellow-mark">
                                     <p>NTeos's expertise in MS Dynamics streamlined our operations tremendously. Their customized solutions improved our workflow efficiency, allowing us to focus on growth.</p>
                                 </div>
                             </div>
@@ -201,7 +201,7 @@
                                 <div class="header">
                                     <div class="row">
                                         <div class="h-image col-lg-2  text-center">
-                                            <img src="./assets/images/testimonials/Emily.svg" alt="">
+                                            <img src="./assets/images/testimonials/Emily.svg" alt="testimonial-emily">
                                         </div>
                                         <div class="h-profile col-lg-8">
                                             <h3 class="p-name">Emily Johnson</h3>
@@ -210,7 +210,7 @@
                                     </div>
                                 </div>
                                 <div class="content px-5">
-                                    <img src="./assets/images/testimonials/yellow mark.svg" alt="">
+                                    <img src="./assets/images/testimonials/yellow mark.svg" alt="testimonails-yellow-mark">
                                     <p>NTeos has revolutionized our P2P process. Their strategic approach minimized errors and enhanced transparency, significantly improving our procurement efficiency.</p>
                                 </div>
                             </div>
@@ -222,7 +222,7 @@
                                 <div class="header">
                                     <div class="row">
                                         <div class="h-image col-lg-2  text-center">
-                                            <img src="./assets/images/testimonials/mark.svg" alt="">
+                                            <img src="./assets/images/testimonials/mark.svg" alt="testimonial-mark3">
                                         </div>
                                         <div class="h-profile col-lg-8">
                                             <h3 class="p-name">Michael Brown</h3>
@@ -231,7 +231,7 @@
                                     </div>
                                 </div>
                                 <div class="content px-5">
-                                    <img src="./assets/images/testimonials/yellow mark.svg" alt="">
+                                    <img src="./assets/images/testimonials/yellow mark.svg" alt="testimonails-yellow-mark">
                                     <p>NThanks to NTeos's web development team, our site is now user-friendly and visually appealing. The attention to detail and innovative features have boosted our online presence.</p>
                                 </div>
                             </div>
@@ -243,7 +243,7 @@
                                 <div class="header">
                                     <div class="row">
                                         <div class="h-image col-lg-2  text-center">
-                                            <img src="./assets/images/testimonials/jessica.svg" alt="">
+                                            <img src="./assets/images/testimonials/jessica.svg" alt="testimonial-emily2">
                                         </div>
                                         <div class="h-profile col-lg-8">
                                             <h3 class="p-name">Emily Johnson</h3>
@@ -252,7 +252,7 @@
                                     </div>
                                 </div>
                                 <div class="content px-5">
-                                    <img src="./assets/images/testimonials/yellow mark.svg" alt="">
+                                    <img src="./assets/images/testimonials/yellow mark.svg" alt="testimonails-yellow-mark">
                                     <p>NTeos's mobile app development service exceeded our expectations! They created a seamless and intuitive app that has delighted our users, driving engagement and retention</p>
                                 </div>
                             </div>
@@ -264,7 +264,7 @@
                                 <div class="header">
                                     <div class="row">
                                         <div class="h-image col-lg-2  text-center">
-                                            <img src="./assets/images/testimonials/john.svg" alt="">
+                                            <img src="./assets/images/testimonials/john.svg" alt="testimonial-john">
                                         </div>
                                         <div class="h-profile col-lg-8">
                                             <h3 class="p-name">Michael Brown</h3>
@@ -273,7 +273,7 @@
                                     </div>
                                 </div>
                                 <div class="content px-5">
-                                    <img src="./assets/images/testimonials/yellow mark.svg" alt="">
+                                    <img src="./assets/images/testimonials/yellow mark.svg" alt="testimonails-yellow-mark">
                                     <p>Our experience with NTeos in application development was outstanding. They delivered a strong solution tailored to our needs, improving functionality and user experience.</p>
                                 </div>
                             </div>

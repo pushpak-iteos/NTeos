@@ -18,11 +18,11 @@
 
     <?php include './common/NavigationBar.php';?>
     <div class="rect" style="padding-top: 70px;">
-      <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Rectangle 2599.svg"  alt="">
+      <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Rectangle 2599.svg"  alt="green-bg-below-navbar">
       <h2>Service</h2>
       <p>
           Home 
-          <img class="less-than-symbol" src="./assets/images/NavBar-ContactUs-Services-AboutUs/less-than-symbol 1.svg" alt="">
+          <img class="less-than-symbol" src="./assets/images/NavBar-ContactUs-Services-AboutUs/less-than-symbol 1.svg" alt="green-less-than-sumbol">
           <span>Service</span>
       </p>
     </div>
@@ -44,10 +44,10 @@
                         
                             <div class="card mb-4">
                                 <div class="info-card p-4">
-                                    <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/SAP COE.svg" alt="" class="service_images">
+                                    <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/SAP COE.svg" alt="SAP-COE-image" class="service_images">
                                     <h5>SAP COE</h5>
                                     <p>Enhance business efficiency with our SAP COE services which deliver customized solutions.</p>
-                                    <a href="/NTeos/Services/SapCoe.php"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt=""></a>
+                                    <a href="./Services/SapCoe.php"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt="learn-more-image"></a>
  
                                 </div>
                                 <div class="container text-center">
@@ -62,11 +62,11 @@
                     <div class="card-wrapper col-lg-3 col-md-6 col-sm-12">
                         <div class="card mb-4">
                             <div class="info-card p-4">
-                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Quality Assurance.svg" alt="" class="service_images">
+                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Quality Assurance.svg" alt="Quality-assurance-image" class="service_images">
                                 <h5>Quality Assurance</h5>
                                 <p>Our testing ensures flawless software performance, top-notch quality, and user satisfaction.</p>
                                 <!--  -->
-                                <a href="./Services/QualityAssurance.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt=""></a>
+                                <a href="./Services/QualityAssurance.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt="learn-more-image"></a>
                             </div>
                             <div class="container text-center">
                                    <div class="empty"></div>
@@ -79,11 +79,11 @@
                     <div class="card-wrapper col-lg-3 col-md-6 col-sm-12">
                         <div class="card mb-4">
                             <div class="info-card p-4">
-                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Staffing.svg" alt="" class="service_images">
+                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Staffing.svg" alt="Staffing-image" class="service_images">
                                 <h5>Staffing</h5>
                                 <p>Access top talent with our flexible staffing solutions, optimizing workforce efficiency and agility.</p>
                                 <!--  -->
-                                <a href="./Services/Staffing.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt=""></a>
+                                <a href="./Services/Staffing.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt="learn-more-image"></a>
                             </div>
                             <div class="container text-center">
                                    <div class="empty"></div>
@@ -95,11 +95,11 @@
                     <div class="card-wrapper col-lg-3 col-md-6 col-sm-12">
                         <div class="card mb-4">
                             <div class="info-card p-4">
-                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/CXO Advisory.svg" alt="" class="service_images">
+                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/CXO Advisory.svg" alt="CXO-image" class="service_images">
                                 <h5>CXO Advisory</h5>
                                 <p>Expert guidance for C-suite leaders. We help you navigate & thrive in today's market.</p>
                                 <!--  -->
-                                <a href="./Services/CXO Advisory.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt=""></a>
+                                <a href="./Services/CXO Advisory.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt="learn-more-image"></a>
                             </div>
                             <div class="container text-center">
                                    <div class="empty"></div>
@@ -113,11 +113,11 @@
                     <div class="card-wrapper col-lg-3 col-md-6 col-sm-12">
                         <div class="card mb-4">
                             <div class="info-card p-4">
-                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ui UX.svg" alt="" class="service_images">
+                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Ui UX.svg" alt="UI/UX-image" class="service_images">
                                 <h5>UI/UX Designing</h5>
                                 <p>Create captivating UI/UX designs that improve user engagement and overall experience.</p>
                                 <!--  -->
-                                <a href="./Services/UI Design.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt=""></a>
+                                <a href="./Services/UI Design.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt="learn-more-image"></a>
                             </div>
                             <div class="container text-center">
                                    <div class="empty"></div>
@@ -129,11 +129,11 @@
                     <div class="card-wrapper col-lg-3 col-md-6 col-sm-12">
                         <div class="card mb-4">
                             <div class="info-card p-4">
-                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Master Data Management.svg" alt="" class="service_images">
+                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Master Data Management.svg" alt="Master-Data-Management-image" class="service_images">
                                 <h5>Master Data Management</h5>
                                 <p>Streamline operations with accurate, consistent data using our Master Data Management.</p>
                                 <!--  -->
-                                <a href="./Services/Master_Data_Management.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt=""></a>
+                                <a href="./Services/Master Data Management.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt="learn-more-image"></a>
                             </div>
                             <div class="container text-center">
                                    <div class="empty"></div>
@@ -145,11 +145,11 @@
                     <div class="card-wrapper col-lg-3 col-md-6 col-sm-12">
                         <div class="card mb-4">
                             <div class="info-card p-4">
-                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Digital Marketing.svg" alt="" class="service_images">
+                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Digital Marketing.svg" alt="Digital-Marketing-images" class="service_images">
                                 <h5>Digital Marketing</h5>
                                 <p>Enhance online presence and engagement with targeted SEO/SEM strategies for visibility.</p>
                                 <!--  -->
-                                <a href="./Services/Digital Marketing.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt=""></a>
+                                <a href="./Services/Digital Marketing.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt="learn-more-image"></a>
                             </div>
                             <div class="container text-center">
                                    <div class="empty"></div>
@@ -161,11 +161,11 @@
                     <div class="card-wrapper col-lg-3 col-md-6 col-sm-12">
                         <div class="card mb-4">
                             <div class="info-card p-4">
-                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/MS Dynamic.svg" alt="" class="service_images">
+                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/MS Dynamic.svg" alt="MS-Dynamics-image" class="service_images">
                                 <h5>MS Dynamics</h5>
                                 <p>Maximize efficiency with our customized MS Dynamics implementations.</p>
                                 <!--  -->
-                                <a href="./Services/MS Dynamics.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt=""></a>
+                                <a href="./Services/MS Dynamics.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt="learn-more-image"></a>
                             </div>
                             <div class="container text-center">
                                    <div class="empty"></div>
@@ -179,11 +179,11 @@
                     <div class="card-wrapper col-lg-3 col-md-6 col-sm-12">
                         <div class="card mb-4">
                             <div class="info-card p-4">
-                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Application Development.svg" alt="" class="service_images">
+                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Application Development.svg" alt="App-Development-images" class="service_images">
                                 <h5>Application Development</h5>
                                 <p>Develop custom web and mobile applications to enhance functionality and user engagement efficiently.</p>
                                 <!--  -->
-                                <a href="./Services/Application Development.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt=""></a>
+                                <a href="./Services/Application Development.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt="learn-more-image"></a>
                             </div>
                             <div class="container text-center">
                                    <div class="empty"></div>
@@ -195,11 +195,11 @@
                     <div class="card-wrapper col-lg-3 col-md-6 col-sm-12">
                         <div class="card mb-4">
                             <div class="info-card p-4">
-                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/P2P.svg" alt="" class="service_images">
+                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/P2P.svg" alt="P2P-image" class="service_images">
                                 <h5>P2P (Procure to Pay)</h5>
                                 <p>We develop custom web and mobile applications to enhance functionality and user engagement efficiently.</p>
                                 <!--  -->
-                                <a href="./Services/P2P.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt=""></a>
+                                <a href="./Services/P2P.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt="learn-more-image"></a>
                             </div>
                             <div class="container text-center">
                                    <div class="empty"></div>
@@ -211,11 +211,11 @@
                     <div class="card-wrapper col-lg-3 col-md-6 col-sm-12">
                         <div class="card mb-4">
                             <div class="info-card p-4">
-                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Cyber Security.svg" alt="" class="service_images">
+                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Cyber Security.svg" alt="Cyber-Security-images" class="service_images">
                                 <h5>Cyber Security</h5>
                                 <p>Protect data with our robust cybersecurity measures, ensuring compliance and mitigating potential threats.</p>
                                 <!--  -->
-                                <a href="./Services/Cyber Security.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt=""></a>
+                                <a href="./Services/Cyber Security.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt="learn-more-image"></a>
                             </div>
                             <div class="container text-center">
                                    <div class="empty"></div>
@@ -227,11 +227,11 @@
                     <div class="card-wrapper col-lg-3 col-md-6 col-sm-12">
                         <div class="card mb-4">
                             <div class="info-card p-4">
-                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Outsourcing.svg" alt="" class="service_images">
+                                <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Outsourcing.svg" alt="Outsourcing-images" class="service_images">
                                 <h5>Outsourcing</h5>
                                 <p>Stress-free IT management. Outsource & unlock your growth potential.</p>
                                 <!--  -->
-                                <a href="./Services/Outsourcing.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt=""></a>
+                                <a href="./Services/Outsourcing.php" class="card-link"><img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Learn more.svg" alt="learn-more-image"></a>
                             </div>
                             <div class="container text-center">
                                    <div class="empty"></div>
@@ -256,7 +256,7 @@
                             <div class="row">
                             <div class="s-mark col-lg-1">
                                 <div class="images ">
-                                <img src="./assets/./images/NavBar-ContactUs-Services-AboutUs/partnership 1.svg" alt="">
+                                <img src="./assets/./images/NavBar-ContactUs-Services-AboutUs/partnership 1.svg" alt="part2-handshake-image">
                                 </div>
                                 
                                 </div>  
@@ -271,7 +271,7 @@
                             <div class="row">
                                 <div class="s-mark col-lg-1 col-sm-12">
                                     <div class="images">
-                                    <img src="./assets/./images/NavBar-ContactUs-Services-AboutUs/idea-solution 1.svg" alt="">
+                                    <img src="./assets/./images/NavBar-ContactUs-Services-AboutUs/idea-solution 1.svg" alt="part2-blub-image">
                                     </div>
                                     
                                 </div>
@@ -286,7 +286,7 @@
                             <div class="row">
                                 <div class="s-mark col-lg-1 col-sm-12">
                                     <div class="images">
-                                    <img src="./assets/./images/NavBar-ContactUs-Services-AboutUs/chart 1.svg" alt="">
+                                    <img src="./assets/./images/NavBar-ContactUs-Services-AboutUs/chart 1.svg" alt="part2-contactus-image">
                                     </div>
                                     
                                 </div>
@@ -301,7 +301,7 @@
                             <div class="row">
                                 <div class="s-mark col-lg-1">
                                     <div class="images">
-                                    <img src="./assets/./images/NavBar-ContactUs-Services-AboutUs/verify 1.svg" alt="">
+                                    <img src="./assets/./images/NavBar-ContactUs-Services-AboutUs/verify 1.svg" alt="part2-tick-mark-image">
                                     </div>
                                 
                                 </div>
@@ -318,7 +318,7 @@
                 
                     <div class="right col-lg-6 col-sm-12">
                      <div class="hover-effect-container">
-                      <img src="./assets/./images/NavBar-ContactUs-Services-AboutUs/Rectangle 2603 (1).svg" alt="" class="hover-effect-image">
+                      <img src="./assets/./images/NavBar-ContactUs-Services-AboutUs/Rectangle 2603 (1).svg" alt="part2-hover-image" class="hover-effect-image">
                      </div>
                     </div>
                     

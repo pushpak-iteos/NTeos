@@ -1,9 +1,10 @@
+<?php $ImagePath = "https://nteos.ca/"?>
 
         <!-- Navbar Section -->
         <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom fixed-top">
             <div class="container">
                 <!-- Logo -->
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="../../index.php">
                     <img src="../assets/images/Navbar/ITeos Logo.svg" alt="Logo" class="navbar-logo">
                 </a>
     

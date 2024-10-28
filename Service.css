@@ -81,12 +81,20 @@
     
 }
 
-
+.container .row .card-wrapper{
+    /* width: 90%; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+   
+    
+}
 
 .container .row .card-wrapper .card{
     padding-bottom: 0px !important;
     height: 302px;
     width: 290px;
+    
 }
 .container .row .card-wrapper .card .services-images{
     height: 52;
@@ -250,11 +258,11 @@
 }
 
 
-.last .container .back_img{
+.last .container .back_img {
     background-image: url("./assets/images/NavBar-ContactUs-Services-AboutUs/BG.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 22.5em;
+    height: 22.5em;  
     width: 100%;
     border-radius: 10px;
     display: flex;
@@ -262,26 +270,60 @@
     justify-content: center;
     align-items: center;
     font-family: "Poppins", sans-serif;
+    padding: 1rem; 
 }
- 
-.last .container .back_img h2{
-    font-size: 40px;
+
+.last .container .back_img h2 {
+    font-size: 2.5rem;
     color: #EDF2F4;
     font-weight: 600;
+    text-align: center;  
 }
-.last .container .back_img p{
-    font-size: 18px;
+
+.last .container .back_img p {
+    font-size: 1.125rem;
     color: #EDF2F4;
     font-weight: 400;
-    /* justify-content: center; */
     max-width: 837px;
+    text-align: center;  
+    padding: 0 1rem;  
 }
- 
-.last .container .back_img button{
-    font-size: 20px;
+
+.last .container .back_img button {
+    font-size: 1.25rem;
     color: white;
     max-width: 181px;
     max-height: 56px;
-    background-color: #20CFC5 ;
-   
+    background-color: #20CFC5;
+    margin-top: 1rem;  
+}
+
+@media (max-width: 768px) {
+    .last .container .back_img {
+        height: auto;  
+        padding: 2rem 1rem;  
+    }
+
+    .last .container .back_img h2 {
+        font-size: 2rem; 
+    }
+
+    .last .container .back_img p {
+        font-size: 1rem;  
+    }
+
+    .last .container .back_img button {
+        font-size: 1rem;  
+        max-width: 100%;  
+    }
+}
+
+@media (max-width: 480px) {
+    .last .container .back_img h2 {
+        font-size: 1.75rem;  
+    }
+
+    .last .container .back_img p {
+        font-size: 0.9rem;  
+    }
 }

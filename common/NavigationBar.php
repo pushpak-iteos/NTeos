@@ -1,11 +1,11 @@
-
+<?php $ImagePath = "https://nteos.ca/"?>
 
     <!-- Navbar Section -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom fixed-top">
         <div class="container">
             <!-- Logo -->
-            <a class="navbar-brand" href="#">
-                <img src="/NTeos/assets/images/navbar/NTeos.svg" alt="Logo" class="navbar-logo">
+            <a class="navbar-brand" href="<?php echo $ImagePath?>index.php">
+                <img src="<?php echo $ImagePath?>assets/images/navbar/NTeos.svg" alt="Logo" class="navbar-logo">
             </a>
 
             <!-- Hamburger Menu for Mobile -->
@@ -15,35 +15,62 @@
 
             <!-- Navigation Links and Button -->
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="./index.php" style="color: #008080;">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./AboutUs.php">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./Service.php">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./portfolio.php">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./testimonials.php">Testimonials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./blogs.php">Blogs</a>
-                    </li>
-                </ul>
-                <div class="btn-container ms-lg-3 text-center">
-                    <a href="./ContactUs.php" class="btn btn-outline-primary">Contact Us</a>
-                </div>
-            </div>
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        
+        <li class="nav-item">
+            <a class="nav-link" href="<?php echo $ImagePath?>index.php"> Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="<?php echo $ImagePath?>AboutUs.php">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="<?php echo $ImagePath?>Service.php">Services</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="<?php echo $ImagePath?>portfolio.php">Portfolio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="<?php echo $ImagePath?>testimonials.php">Testimonials</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="<?php echo $ImagePath?>blogs.php">Blogs</a>
+        </li>
+    </ul>
+    <div class="btn-container ms-lg-3 text-center">
+        <a href="./ContactUs.php" class="btn btn-outline-primary">Contact Us</a>
+    </div>
+</div>
+
+<script>
+    // JavaScript to set the active class on the current page's navbar link
+    const currentPath = window.location.pathname;
+    const navLinks = document.querySelectorAll('.navbar-nav .nav-link');
+    
+    navLinks.forEach(link => {
+        if (link.getAttribute('href') === currentPath) {
+            link.classList.add('active');
+        }
+    });
+</script>
+
         </div>
     </nav>
 
+    
+
  <style>
     /* General styles for the navbar */
+
+    .navbar-nav {
+    font-weight: 600;
+}
+
+    .navbar-nav .nav-link.active {
+    color: #008080 !important; /* Set your desired active color here */
+    font-weight: 600;
+}
+
+
 .navbar {
     padding: 1rem 0;
     
@@ -56,7 +83,7 @@
 
 /* Style for the nav links */
 .nav-link {
-    color: black;
+    color: #747582;
     font-size: 16px;
     margin-right: 20px;
     transition: color 0.3s ease;

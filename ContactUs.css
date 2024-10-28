@@ -7,12 +7,12 @@ body {
     /* height: 00%; */
     text-align: left;
 }
- 
+
 .rect img {
     width: 100%;
     /* height: 50%; */
 }
- 
+
 .rect .less-than-symbol {
     display: inline-block;
     vertical-align: middle; /* Align the symbol with the text */
@@ -20,7 +20,7 @@ body {
     width: 16px; /* Adjust the width to make it smaller */
     height: auto; /* Maintain aspect ratio */
 }
- 
+
 .rect h2 {
     position: absolute; /* Keep h2 absolutely positioned */
     top: 60%;
@@ -31,7 +31,7 @@ body {
     color: black;
     font-family: "Ubuntu", sans-serif;
 }
- 
+
 .rect p {
     margin-left: 100px; /* Align with h2 */
     font-size: 1rem;
@@ -41,10 +41,42 @@ body {
     position: absolute; /* Keep p absolutely positioned */
     top: calc(55% + 30px); /* Position below h2 (adjust +30px for desired spacing) */
 }
- 
+
 .rect p span {
     color: #008080; /* Teal color for the span */
 }
+
+@media (max-width: 768px) {
+    
+    
+    .rect h2 {
+        padding-top: 10px;
+        top: 60%;
+        font-size: 1.5rem;
+    }
+
+    .rect p {
+        top: calc(50% + 30px);
+        font-size: 0.9rem;
+    }
+}
+
+
+@media (max-width: 480px) {
+    
+
+    .rect h2 {
+        padding-top: 10px;
+        top: 70%;
+        font-size: 1.2rem; /* Smaller font for mobile devices */
+    }
+
+    .rect p {
+        top: calc(50% + 30px);
+        font-size: 0.8rem; /* Smaller text for mobile */
+    }
+}
+
 .part1 .left{
     z-index: 1;
 

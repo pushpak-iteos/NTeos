@@ -39,11 +39,11 @@
   
     </div>
     <div class="rect" style="padding-top: 70px;">
-        <img src="../assets/images/Blue-Background.svg"  alt="">
+        <img src="../assets/images/Blue-Background.svg"  alt="Nav-below-blue-bg">
         <h2>Blog Details</h2>
         <p>
            Blogs 
-          <img class="less-than-symbol" src="../assets/images/less-than-symbol 2.svg" alt="">
+          <img class="less-than-symbol" src="../assets/images/less-than-symbol 2.svg" alt="blue-bg-less-than-symbol">
           <span>Blog Details</span>
         </p>
       </div>
@@ -59,7 +59,7 @@
           />
 
           <div class="date">
-            <p><span><img src="../assets/images/Blogs/Calendar.svg" alt=""></span>Mar 14, 2024/ <span></span><img src="../assets/images/Blogs/Chats.svg" alt="">3/ by Micheal Henderson
+            <p><span><img src="../assets/images/Blogs/Calendar.svg" alt="blogs-calender"></span>Mar 14, 2024/ <span></span><img src="../assets/images/Blogs/Chats.svg" alt="blogs-chats">3/ by Micheal Henderson
             </p>
             
           </div>
@@ -79,7 +79,7 @@
 
             <div class="row">
               <div class="left col-lg-6 col-md-6 col-sm-12">
-                <img src="../assets/images/Blogs/typing.svg" alt="Typing" />
+                <img class="typing_img" src="../assets/images/Blogs/typing.svg" alt="Typing" />
               </div>
               <div class="right col-lg-6 col-md-6 col-sm-12">
                 <h2 class="s-heading">Importance</h2>
@@ -168,11 +168,21 @@
             </p>
           </div>
 
-          <img
-            class="img-fluid pt-5"
-            src="../assets/images/Blogs/tags.svg"
-            alt=""
-          />
+          <div class="tags-share-container">
+        <div class="m-tags">
+            <p>Tags:</p>
+            <span>SAP, COE, 2024</span>
+        </div>
+        <div class="share">
+            <p>Share:</p>
+            <div class="social-icons ml-2">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-pinterest"></i></a>
+            </div>
+        </div>
+    </div>
         </div>
 
         <!-- Right Column -->
@@ -203,10 +213,10 @@
             </div>
             <div class="container m-3">
               <div class="social-icons">
-                <a class="px-1" href="#"><img src="../assets/images/Blogs/p-facebook.svg" alt=""></i></a>
-                <a class="px-1" href="#"><img src="../assets/images/Blogs/p-twitter.svg" alt=""></a>
-                <a class="px-1" href="#"><img src="../assets/images/Blogs/p-instagram.svg" alt=""></a>
-                <a class="px-1" href="#"><img src="../assets/images/Blogs/p-pinterest.svg" alt=""></a>
+                <a class="px-1" href="#"><img src="../assets/images/Blogs/p-facebook.svg" alt="blogs-facebook"></i></a>
+                <a class="px-1" href="#"><img src="../assets/images/Blogs/p-twitter.svg" alt="blogs-twitter"></a>
+                <a class="px-1" href="#"><img src="../assets/images/Blogs/p-instagram.svg" alt="blogs-insts"></a>
+                <a class="px-1" href="#"><img src="../assets/images/Blogs/p-pinterest.svg" alt="blogs-pinterest"></a>
               </div>
             </div>
           </div>
@@ -226,29 +236,29 @@
           <div class="card mt-5">
             <div class="card-body">
               <h4 class="card-title">Popular Tags</h4>
-              <div class="row text-center">
-                <div class="col-6 col-md-4 col-lg-3">
+              <div class="row text-start">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                   <p class="tags">SAP</p>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3">
+                <div class="col-sm-12 col-md-6  col-lg-4">
                   <p class="tags">COE</p>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3">
+                <div class="col-sm-12 col-md-6  col-lg-4">
                   <p class="tags">2024</p>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3">
+                <div class="col-sm-12 col-md-6  col-lg-4">
                   <p class="tags">Innovative</p>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                   <p class="tags">Software</p>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                   <p class="tags">Goals</p>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                   <p class="tags">Efficiency</p>
                 </div>
-                <div class="col-6 col-md-4 col-lg-3">
+                <div class="col-sm-12 col-md-6 col-lg-4">
                   <p class="tags">Investment</p>
                 </div>
               </div>
@@ -264,60 +274,60 @@
                     <img
                       class="back"
                       src="../assets/images/Blogs/background.svg"
-                      alt=""
+                      alt="blogs-bg"
                     />
                     <img
                       class="logo"
                       src="../assets/images/Blogs/twitter.svg"
-                      alt=""
+                      alt="blogs-twitter"
                     />
                   </div>
                   <div class="icons">
                     <img
                       class="back"
                       src="../assets/images/Blogs/background.svg"
-                      alt=""
+                      alt="blogs-background"
                     />
                     <img
                       class="logo"
                       src="../assets/images/Blogs/youtube.svg"
-                      alt=""
+                      alt="blogs-youtube"
                     />
                   </div>
                   <div class="icons">
                     <img
                       class="back"
                       src="../assets/images/Blogs/bg_blue.svg"
-                      alt=""
+                      alt="blogs-blue"
                     />
                     <img
                       class="logo"
                       src="../assets/images/Blogs/pinterest.svg"
-                      alt=""
+                      alt="blogs-pinetrest"
                     />
                   </div>
                   <div class="icons">
                     <img
                       class="back"
                       src="../assets/images/Blogs/background.svg"
-                      alt=""
+                      alt="blogs-background"
                     />
                     <img
                       class="logo"
                       src="../assets/images/Blogs/instagram.svg"
-                      alt=""
+                      alt="blogs-insta"
                     />
                   </div>
                   <div class="icons">
                     <img
                       class="back"
                       src="../assets/images/Blogs/background.svg"
-                      alt=""
+                      alt="blogs-bg"
                     />
                     <img
                       class="logo"
                       src="../assets/images/Blogs/facebook.svg"
-                      alt=""
+                      alt="blogs-facebook"
                     />
                   </div>
                 </div>
@@ -336,14 +346,14 @@
           <div class="profiles mt-5">
             <div class="row">
               <div class="col-auto p-image">
-                <img src="../assets/images/Blogs/Ellipse.svg" alt="" />
+                <img src="../assets/images/Blogs/Ellipse.svg" alt="blogs-elipse" />
               </div>
               <div class="col p-info">
                 <div
                   class="name d-flex justify-content-between align-items-center"
                 >
                   <h2>Mark Thomson</h2>
-                  <img src="../assets/images/Blogs/reply.svg" alt="" />
+                  <img src="../assets/images/Blogs/reply.svg" alt="blogs-reply" />
                 </div>
                 <p>
                   Extremely informative! This post offers valuable insights on
@@ -355,14 +365,14 @@
           <div class="profiles mt-5">
             <div class="row">
               <div class="col-auto p-image">
-                <img src="../assets/images/Blogs/Ellipse2.svg" alt="" />
+                <img src="../assets/images/Blogs/Ellipse2.svg" alt="blogs-ellipse2" />
               </div>
               <div class="col p-info">
                 <div
                   class="name d-flex justify-content-between align-items-center"
                 >
                   <h2>Jessica Warren</h2>
-                  <img src="../assets/images/Blogs/reply.svg" alt="" />
+                  <img src="../assets/images/Blogs/reply.svg" alt="blogs-reply" />
                 </div>
                 <p>
                   Extremely informative! This post offers valuable insights on
@@ -374,14 +384,14 @@
           <div class="profiles mt-5">
             <div class="row">
               <div class="col-auto p-image">
-                <img src="../assets/images/Blogs/Ellipse3.svg" alt="" />
+                <img src="../assets/images/Blogs/Ellipse3.svg" alt="blogs-ellipse3" />
               </div>
               <div class="col p-info">
                 <div
                   class="name d-flex justify-content-between align-items-center"
                 >
                   <h2>Ethan Adams</h2>
-                  <img src="../assets/images/Blogs/reply.svg" alt="" />
+                  <img src="../assets/images/Blogs/reply.svg" alt="blogs-reply" />
                 </div>
                 <p>
                   Extremely informative! This post offers valuable insights on

@@ -24,11 +24,11 @@
     <div class="ContactUs ">
      
          <div class="rect">
-             <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Rectangle 2599.svg" alt="" style="width: 100%; padding-top:70px">
+             <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Rectangle 2599.svg" alt="Nav-below-green-bg" style="width: 100%; padding-top:70px">
              <h2>Contact Us</h2>
              <p>
                 Home
-                <img class="less-than-symbol" src="./assets/images/NavBar-ContactUs-Services-AboutUs/less-than-symbol 1.svg" alt="">
+                <img class="less-than-symbol" src="./assets/images/NavBar-ContactUs-Services-AboutUs/less-than-symbol 1.svg" alt="green-bg-less-than-symbol">
                 <span>Contact Us</span>
              </p>
          </div>
@@ -77,11 +77,13 @@
                                     <button type="submit" class="btn btn-outline-primary">Send</button>
                                 </div>
                             </form> 
+
+                            
                         </div>
                         <div class="right col-lg-6 ">
                             <div class="contact-card">
                                 <div class="grid-container2">
-                                    <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Rectangle 8.svg" alt="">
+                                    <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Rectangle 8.svg" alt="Conatctus-page-bg">
                                     <h3>Let’s Talk</h3>
                                 </div>
                                 
@@ -122,22 +124,22 @@
             <div class="part2">
                <div class="row">
                   <div class="left col-lg-3">
-                    <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Help and support.svg" alt="" class="p2-heading-image"><br><br><br>
+                    <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Help and support.svg" alt="headset-below-contact-us-page" class="p2-heading-image"><br><br><br>
                     <h3>Help & Support</h3><br>
                     <p style="width: 229px; font-size: 16px;">Email ranjan.s@iteos.in  for help with current products or services. Check our FAQs for quick answers.</p>
                   </div>
                   <div class="middle1 col-lg-3">
-                    <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Call us.svg" alt="" class="p2-heading-image"><br><br><br>
+                    <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Call us.svg" alt="" class="phone-below-contact-us-page"><br><br><br>
                     <h3>Call Us</h3><br>
                     <p>Call us to speak to a member of our team. +403 4184848</p>
                   </div>
                   <div class="middle2 col-lg-3">
-                    <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/ODC.svg" alt="" class="p2-heading-image" ><br><br><br>
+                    <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/ODC.svg" alt="group-circle-below-contact-us-page" class="p2-heading-image" ><br><br><br>
                     <h3>ODC</h3><br>
                     <p>We operate ODCs across Canada, the Middle East in Dubai, and India in Bengaluru and Pune.</p>
                   </div>
                   <div class="right col-lg-3">
-                    <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Office.svg" alt="" class="p2-heading-image"><br><br><br>
+                    <img src="./assets/images/NavBar-ContactUs-Services-AboutUs/Office.svg" alt="four-square-below-contact-us-page" class="p2-heading-image"><br><br><br>
                     <h3>Office</h3><br>
                     <p>NTeos : 121 Royal Birch Heath NW, Calgary, AB, T3G 5T8 +403 4184848</p>
                   </div>

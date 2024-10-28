@@ -24,7 +24,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="Staffing.css" />
+    <link rel="stylesheet" href="SapCoe.css" />
 
 
     <title>Our Services</title>
@@ -32,11 +32,11 @@
 <body>
 <?php include '../common/NavigationBar.php';?>
     <div class="rect" style="padding-top: 70px;">
-      <img src="../assets/images/NavBar-ContactUs-Services-AboutUs/Rectangle 2599.svg"  alt="">
+      <img src="../assets/images/NavBar-ContactUs-Services-AboutUs/Rectangle 2599.svg"  alt="Nav-below-green-bg">
       <h2>CXO Advisory</h2>
       <p>
           Home 
-          <img class="less-than-symbol" src="../assets/images/NavBar-ContactUs-Services-AboutUs/less-than-symbol 1.svg" alt="">
+          <img class="less-than-symbol" src="../assets/images/NavBar-ContactUs-Services-AboutUs/less-than-symbol 1.svg" alt="green-bg-less-than-symbol">
           <span>Detail page</span>
       </p>
     </div>
@@ -46,7 +46,7 @@
                 <div class="container">
                     <div class="row g-5">
                         <div class="left col-sm-12 col-md-6 col-lg-6">
-                            <img class="img-fluid" src="../assets/images/services/Photo (8).svg" alt="">
+                            <img class="img-fluid" src="../assets/images/services/Photo (8).svg" alt="CXO-pic1">
                         </div>
                         <div class="right col-sm-12 col-md-6 col-lg-6">
                             <h3 class="p-heading">
@@ -81,7 +81,7 @@
                                 <div class="first col-sm-12 col-md-6 col-lg-6">
                                     <div class="row mt-5">
                                         <div class="p-icon col-2">
-                                            <img class="img-fluid" src="../assets/images/services/apps 1.svg" alt="">
+                                            <img class="img-fluid" src="../assets/images/services/apps 1.svg" alt="CXO-squares-incircle">
                                         </div>
                                         <div class="p-data col-10">
                                             <h3 class="p-data-heading">
@@ -96,7 +96,7 @@
                                 <div class="second col-sm-12 col-md-6 col-lg-6">
                                     <div class="row mt-5">
                                         <div class="p-icon col-2">
-                                            <img class="img-fluid" src="../assets/images/services/apps 1.svg" alt="">
+                                            <img class="img-fluid" src="../assets/images/services/apps 1.svg" alt="CXO-squares-incircle">
                                         </div>
                                         <div class="p-data col-10">
                                             <h3 class="p-data-heading">
@@ -111,7 +111,7 @@
                                 <div class="second col-sm-12 col-md-6 col-lg-6">
                                     <div class="row mt-5">
                                         <div class="p-icon col-2">
-                                            <img class="img-fluid" src="../assets/images/services/apps 1.svg" alt="">
+                                            <img class="img-fluid" src="../assets/images/services/apps 1.svg" alt="CXO-squares-incircle">
                                         </div>
                                         <div class="p-data col-10">
                                             <h3 class="p-data-heading">
@@ -126,7 +126,7 @@
                                 <div class="second col-sm-12 col-md-6 col-lg-6">
                                     <div class="row mt-5">
                                         <div class="p-icon col-2">
-                                            <img class="img-fluid" src="../assets/images/services/apps 1.svg" alt="">
+                                            <img class="img-fluid" src="../assets/images/services/apps 1.svg" alt="CXO-squares-incircle">
                                         </div>
                                         <div class="p-data col-10">
                                             <h3 class="p-data-heading">
@@ -140,9 +140,9 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="right text-end col-lg-3 col-md-3 col-sm-12">
+                        <div class="right  col-lg-3 col-md-3 col-sm-12">
                             <!-- Right Section -->
-                            <img src="../assets/images/services/Photo (9).svg" class="img-fluid" alt="">
+                            <img src="../assets/images/services/Photo (9).svg" class="img-fluid" alt="CXO-pic2">
                         </div>
                     </div>
                     
@@ -153,7 +153,7 @@
                     <div class="row">
                         <div class="left col-lg-6 col-mg-6 col-sm-12">
                             <!-- <h2>left</h2> -->
-                             <img src="../assets/images/services/Photo (10).svg" alt="">
+                             <img src="../assets/images/services/Photo (10).svg" alt="CXO-pic3">
                         </div>
                         <div class="right col-lg-6 col-mg-6 col-sm-12">
                             <h2 class="p-heading">
@@ -192,7 +192,7 @@
                         </div>
                         <div class="left col-lg-6 col-mg-6 col-sm-12">
                             <!-- <h2>left</h2> -->
-                             <img src="../assets/images/services/Photo (11).svg" alt="">
+                             <img src="../assets/images/services/Photo (11).svg" alt="CXO-pic5">
                         </div>
                     </div>
                 </div>
@@ -210,7 +210,7 @@
                     Request a Customized <br> Solution for Your Business!
                     </h2>
                     <p class="py-3" >Get a personalized IT solution designed for your unique challenges. Benefit from our 11+ years of expertise serving businesses in Canada and India.Explore  flawless integration, dedicated support, and innovative solutions customized to your needs</p>
-                    <button type="button" class="btn btn-info">Contact Us</button>
+                    <a href="../ContactUs.php"><button type="button" class="btn btn-info">Contact Us</button></a>
                 </div>
             </div>
         </div>

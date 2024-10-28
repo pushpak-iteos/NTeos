@@ -31,11 +31,11 @@
   <body> <?php include './common/NavigationBar.php';?>
 
     <div class="rect" style="padding-top: 70px;">
-      <img src="./assets/images/blogs/Rectangle 2599.svg"  alt="">
+      <img src="./assets/images/blogs/Rectangle 2599.svg"  alt="Nav-below-green-bg">
       <h2>Blogs</h2>
       <p>
           Home 
-          <img class="less-than-symbol" src="./assets/images/blogs/less-than-symbol 1.svg" alt="">
+          <img class="less-than-symbol" src="./assets/images/blogs/less-than-symbol 1.svg" alt="green-bg-less-than-symbol">
           <span>Blogs</span>
       </p>
     </div>
@@ -89,7 +89,7 @@
               <img
                 class="overlay-img"
                 src="./assets/images/blogs/2mar.svg"
-                alt=""
+                alt="Overlay Image"
               />
             </div>
             <div class="card-body px-4">
@@ -119,7 +119,7 @@
               <img
                 class="overlay-img"
                 src="./assets/images/blogs/18feb.svg"
-                alt=""
+                alt="Overlay Image"
               />
             </div>
             <div class="card-body px-4">
@@ -149,7 +149,7 @@
               <img
                 class="overlay-img"
                 src="./assets/images/blogs/1feb.svg"
-                alt=""
+                alt="Overlay Image"
               />
             </div>
             <div class="card-body px-4">
@@ -179,7 +179,7 @@
               <img
                 class="overlay-img"
                 src="./assets/images/blogs/14jan.svg"
-                alt=""
+                alt="Overlay Image"
               />
             </div>
             <div class="card-body px-4">
@@ -210,7 +210,7 @@
               <img
                 class="overlay-img"
                 src="./assets/images/blogs/22dec.svg"
-                alt=""
+                alt="Overlay Image"
               />
             </div>
             <div class="card-body px-4">
@@ -238,7 +238,7 @@
               <img
                 class="overlay-img"
                 src="./assets/images/blogs/5dec.svg"
-                alt=""
+                alt="Overlay Image"
               />
             </div>
             <div class="card-body px-4">
@@ -268,7 +268,7 @@
               <img
                 class="overlay-img"
                 src="./assets/images/blogs/17nov.svg"
-                alt=""
+                alt="Overlay Image"
               />
             </div>
             <div class="card-body px-4">
@@ -299,7 +299,7 @@
               <img
                 class="overlay-img"
                 src="./assets/images/blogs/9oct.svg"
-                alt=""
+                alt="Overlay Image"
               />
             </div>
             <div class="card-body px-4">
